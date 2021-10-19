@@ -1,0 +1,47 @@
+h1 {
+    color: #eee;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.container {
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#listaCivilizaciones {
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 20px;
+}
+
+.civilizations {
+    list-style-type: none;
+    background-color: #eaeaea;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.civilizations > h2 {
+    grid-area: name;
+    margin-bottom: 5px;
+}
+
+.civilizations > p {
+    grid-area: house;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#barraDeBusqueda {
+    width: 100%;
+    height: 32px;
+    border-radius: 3px;
+    border: 1px solid #eaeaea;
+    padding: 5px 10px;
+    font-size: 12px;
+}
