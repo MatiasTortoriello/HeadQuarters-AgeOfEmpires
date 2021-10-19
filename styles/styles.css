@@ -2,6 +2,7 @@ body {
     background-image:url(/img/backgroundDarkWood.jpg);
     background-size: cover ;
     background-attachment: fixed;
+    font-family: 'IM Fell English SC', serif;
 }
 
 .imageMenu {
