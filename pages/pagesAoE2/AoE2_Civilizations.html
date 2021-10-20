@@ -17,7 +17,7 @@
         <header>
             <h1>Age of Empires 2</h1>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +29,7 @@
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="/pages/pagesAoE2/AoE2_Civilizations.html">Civilizations</a>
+                        <a class="nav-link" href="#">Civilizations</a>
                     </li>
 
                     <li class="nav-item active">
@@ -49,7 +49,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Player List</a>
+                        <a class="nav-link" href="#">Rank</a>
                     </li>
 
                     <li class="nav-item">
@@ -62,9 +62,19 @@
 
         </header>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOgBVR21pWg" frameborder="0" allowfullscreen></iframe>
-
-        <script src="/script/Age of Empires Script/Age of Empires 2 Script/AgeOfEmpires_2.js"></script>
+        <div class="container">
+            <h1>Civilization searcher</h1>
+            <div>
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Search for a Civ"
+                />
+            </div>
+            <ul id="civList" class="civilizations"></ul>
+        </div>
+        <script src="/script/AoE2 Scripts/civSearcher2.js"></script>
         <script src="/libs/bootstrap/js/bootstrap.bundle.js"></script>
     </body>
 </html>

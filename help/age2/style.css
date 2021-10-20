@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #001219;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'IM Fell English SC', serif;
+    color: #001219;
+}
+
+form {
+    background-color: #9b2226;
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+}
+
+form .form__group {
+    padding: 1rem;
+}
+
+form label {
+    display: block;
+    color: white;
+    padding: .5rem;
+}
+
+form input {
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: .3rem;
+    border: none;
+    padding: .2rem;
+}
+
+.button {
+    background-color: #ee9b00;
+    border: none;
+    padding: .8rem;
+    margin: 1.5rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .4s;
+    color: #001219;
+}
+
+.button:hover {
+    background-color: #ca6702;
+    color: white;
+}
+
+table {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 80%;
+    max-width: 500px;
+}
+
+table .button {
+    margin: 0;
+}
+
+table td,
+table th {
+    padding: 1rem;
+}
