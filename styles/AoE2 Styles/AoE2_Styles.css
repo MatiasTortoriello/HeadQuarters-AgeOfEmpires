@@ -56,40 +56,41 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .player-input {
 
  
-    background-color: #ffffff;
+    background-color: #ffffff00;
     font-family: 'IM Fell English SC', serif;
     color: #001219;
 }
 
-form {
-    background-color: #000000;
-    min-width: 320px;
-    max-width: 500px;
+.form-players {
+ 
+
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem;
 }
 
-form label {
+.form-players label {
     display: block;
     color: rgb(255, 255, 255);
     padding: .5rem;
 }
 
-form input {
+.form-players input {
     font-size: 1.2rem;
     font-family: 'IM Fell English SC', serif;
-    text-transform: uppercase;
     outline: none;
     border-radius: .3rem;
     border: none;
     padding: .2rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-bottom: white 1px solid;
 }
 
 .button {
@@ -102,7 +103,7 @@ form input {
 }
 
 #table {
-    background-color: rgba(99, 83, 83, 0.179);
+    background-color: rgba(255, 255, 255, 0.987);
     padding: 1rem;
     width: 80%;
     max-width: 500px;
@@ -115,5 +116,5 @@ form input {
 #table td,
 #table th {
     padding: 1rem;
-    border: black 1px solid;
+    border: black 3px solid;
 }

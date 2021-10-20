@@ -57,7 +57,7 @@ class Helper {
                         ${player.nationality}
                     </td>
                     <td>
-                        <button id="${player.id}" class="button">Delete</button>
+                        <button id="${player.id}" class="button">X</button>
                     </td>
                 </tr>
             `;
