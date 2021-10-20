@@ -14,10 +14,10 @@
     </head>
 
     <body>
-        <header>
+        <header class="text-center">
             <h1>Age of Empires 2</h1>
 
-            <nav class=" navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="text-center navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +29,7 @@
                     </li>
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Civilizations</a>
+                        <a class="nav-link" href="/pages/pagesAoE2/AoE2_Civilizations.html">Civilizations</a>
                     </li>
 
                     <li class="nav-item active">
@@ -49,7 +49,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rank</a>
+                        <a class="nav-link" href="#">Player List</a>
                     </li>
 
                     <li class="nav-item">
@@ -62,29 +62,64 @@
 
         </header>
 
-        <main class="main">
+        <section class="main-input">
 
-            <h1 class="title">Player List</h1>
+            <div class="player-input">
 
-            <section class="flex">
-                <form action="#" method="get" id="form">
+                <form action="#" name="addPlayer">
 
-                    <input type="text" name="player" id="player">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                    </div>
 
-                    <button type="submit">
-                        <p>Crear</p>
-                    </button>
+                    <div>
+                        <label for="civilization">Civilization</label>
+                        <input type="text" name="civilization" id="civilization">
+                    </div>
+
+                    <div>
+                        <label for="nationality">Nationality</label>
+                        <input type="text" name="nationality" id="nationality">
+                    </div>
+
+                    <button type="submit" name="button" class="button">Add</button>
+
                 </form>
-            </section>
 
-            <section class="flex">
-                <div class="container">
-                    <h2 class="subtitle">Players</h2>
-                    <ul class="playerList" id="playerList">
-                    </ul>
-                </div>
-            </section>
-        </main>
+            </div>
+
+            <div class="player-input">
+
+                <table id="table">
+
+                    <thead>
+                        <tr>
+
+                            <th>
+                                Player Name
+                            </th>
+
+                            <th>
+                                Main Civilization
+                            </th>
+
+                            <th>
+                                Nationality
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <script src="/script/playerList.js"></script>
+        <script src="/script/formPlayerlist.js"></script>
+        
     </body>
 </html>

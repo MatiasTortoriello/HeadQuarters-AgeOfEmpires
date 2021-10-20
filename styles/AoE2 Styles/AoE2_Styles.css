@@ -49,3 +49,71 @@ body {
     padding: 5px 10px;
     font-size: 12px;
 }
+
+/*PLAYER LIST*/
+
+.main-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.player-input {
+
+ 
+    background-color: #ffffff;
+    font-family: 'IM Fell English SC', serif;
+    color: #001219;
+}
+
+form {
+    background-color: #000000;
+    min-width: 320px;
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+form label {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+}
+
+form input {
+    font-size: 1.2rem;
+    font-family: 'IM Fell English SC', serif;
+    text-transform: uppercase;
+    outline: none;
+    border-radius: .3rem;
+    border: none;
+    padding: .2rem;
+}
+
+.button {
+    background-color: #ac0909;
+    border: none;
+    padding: .8rem;
+    margin: 1.5rem;
+    font-size: 1.2rem;
+    color: #001219;
+}
+
+#table {
+    background-color: rgba(99, 83, 83, 0.179);
+    padding: 1rem;
+    width: 80%;
+    max-width: 500px;
+}
+
+#table .button {
+    margin: 0;
+}
+
+#table td,
+#table th {
+    padding: 1rem;
+    border: black 1px solid;
+}

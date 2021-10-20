@@ -1,74 +1,66 @@
+class Player {
 
-const list = document.getElementById("playerList");
+    constructor({name, id, civilization, nationality,}) 
+    {
+        this.name = name;
+        this.id = id;
+        this.civilization = civilization;
+        this.nationality = nationality
+    }
+}
 
-const createId = () => Math.floor(Math.random() * (1000000 - 1)) + 1;
+class Helper {
+    static bringStorage() {
+        let players = localStorage.getItem("players");
+        if (players === null) {
+            players = [];
+        } else {
+            players = JSON.parse(players);
+        }
+        return players;
+    }
 
-const createLi = (element) => {
-    const li = document.createElement("li");
-    li.textContent = element.player;
-    li.classList.add("player");
-    li.classList.add("flex");
-    li.setAttribute('id', element.id);
+    static storageData(key, value) {
+        localStorage.setItem(key, JSON.stringify(value));
+    }
 
-    const deleteButton = document.createElement("button");
-    deleteButton.classList.add("deleteButton");
-    deleteButton.textContent = "delete";
-    li.appendChild(deleteButton);
+    static generateId() {
+        return Math.floor(Math.random() * (10000 - 1)) + 1;
+    }
 
-    return li;
-};
-
-const getPlayers = () => localStorage.getItem("players") === null ? [] : JSON.parse(localStorage.getItem("players"));
-
-const storagePlayers = (players) => localStorage.setItem("players", JSON.stringify(players));
-
-const addPlayer = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
-
-    const text = document.getElementById("player").value.trim();
-
-    if (text !== "") {
-
-        const player = { id: createId(), player: text };
-        list.appendChild(createLi(player));
-        const players = getPlayers();
+    static savePlayer(player) {
+        const players = Helper.bringStorage();
         players.push(player);
-        storagePlayers(players);
-        
+        Helper.storageData('players', players);
     }
-};
 
-
-const removePlayer = (e) => {
-
-    if (e.target.className === "deleteButton") {
-        e.target.parentElement.remove();
-        let players = getPlayers();
-        players = players.filter(
-            (player) => player.id !== parseInt(e.target.parentElement.id)
-        );
-        storagePlayers(players);
+    static deletePlayer(id) {
+        let players = Helper.bringStorage();
+        players = players.filter(player => player.id != id);
+        Helper.storageData('players', players);
     }
-};
 
-
-const printPlayers = (array) => {
-    const fragment = document.createDocumentFragment();
-    array.forEach((element) => {
-        const li = createLi(element);
-        fragment.appendChild(li);
-    });
-    return fragment;
-};
-
-const displayPlayers = () => {
-    list.innerHTML = " ";
-    let players = getPlayers();
-    list.appendChild(printPlayers(players));
-};
-
-displayPlayers();
-
-document.getElementById("form").addEventListener("submit", addPlayer);
-list.addEventListener("click", removePlayer);
+    static updateData() {
+        const table = document.querySelector('tbody');
+        table.innerHTML = '';
+        const players = Helper.bringStorage();
+        players.forEach(player => {
+            table.innerHTML += `
+                <tr>
+                    <td>
+                        ${player.name}
+                    </td>
+                    <td>
+                        ${player.civilization}
+                    </td>
+                    <td>
+                        ${player.nationality}
+                    </td>
+                    <td>
+                        <button id="${player.id}" class="button">Delete</button>
+                    </td>
+                </tr>
+            `;
+        });
+    }
+}
