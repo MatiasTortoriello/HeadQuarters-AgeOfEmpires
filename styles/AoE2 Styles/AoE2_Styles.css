@@ -49,8 +49,9 @@ nav ul a{
 
 .civilizations li img:hover{
     filter: brightness(120%);
-    transition: 0.3s;
+    transition: 1s;
     transform: scale(1.1);
+    z-index: 2;
 }
 
 #searchBar {
