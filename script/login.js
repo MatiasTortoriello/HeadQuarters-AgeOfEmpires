@@ -3,7 +3,7 @@ function validate() {
     let password=document.getElementById("password").value;
     if (username="user" && (password = "pass"))
     {
-        window.location.href = "pages/AoE2_Main.html";
+        window.location.href = "pages/aoe2_main.html";
     } else {
         alert ("Nope!");
     }
