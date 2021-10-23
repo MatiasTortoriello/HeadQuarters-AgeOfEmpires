@@ -9,14 +9,24 @@ body {
 }
 
 nav{
-background-color: rgb(255, 255, 255);
-background-image: url(/img/AoE2Assets/NavBackground.jpg);
+background-color: rgba(255, 255, 255, 0.611);
+border: 5px solid rgb(123, 90, 56);
 font-size: larger;
 color: black;
 }
+
 nav ul a{
     text-decoration: none;
+    text-shadow: -3px 2px 2px rgb(114, 107, 107);
+    color: black;
+    font-weight: 600;
 }
+
+nav ul a:hover{
+    text-shadow: -3px 2px 2px rgb(31, 30, 30);
+    color: white;
+}
+
 
 /* CIVS */
 .container {
