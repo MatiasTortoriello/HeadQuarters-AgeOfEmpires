@@ -10,6 +10,7 @@ body {
 
 nav{
 background-color: rgb(255, 255, 255);
+background-image: url(/img/AoE2Assets/NavBackground.jpg);
 font-size: larger;
 color: black;
 }
