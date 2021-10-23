@@ -15,8 +15,8 @@ searchBar.addEventListener('keyup', (e) => {
 
 const displayCivs = async () => {
     try {
-        const url = 'https://age-of-empires-2-api.herokuapp.com/api/v1/civilizations';
-        let aoe2Civs = fetch(url).then(response => response.json()).then(json => {
+        //const url = 'https://api.json-generator.com/templates/-PG2Ze3sWp15/data';
+        let aoe2Civs = fetch("../json/AoE2_Civs.json").then(response => response.json()).then(json => {
         console.log(json.civilizations)
         aoe2Civs = json.civilizations
         console.log(aoe2Civs)
@@ -24,8 +24,10 @@ const displayCivs = async () => {
         json.civilizations.forEach(civ => {
         civList.innerHTML += `
         <li>
-        <h3>${civ.name}<h3>
-        <p>Army type: ${civ.army_type}</p>
+        <h3><a href="/pages/pagesAoE2/${civ.name}.html">${civ.name}</a><h3>
+        <a href="/pages/Civilizations/${civ.name}.html">
+        <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png" alt="">
+        </a>
         </li>
         `;
     });

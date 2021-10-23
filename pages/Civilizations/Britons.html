@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <link href="/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/styles/styles.css">
+        <link rel="stylesheet" href="/styles/AoE2 Styles/AoE2_Styles.css">
+
+        <link rel="icon" href="/images/icon.png" type="image/x-icon">
+        <title> HeadQuarters - Age of Empires 2</title>
+    </head>
+
+    <body>
+        <header class="text-center">
+
+            <div class="flex flex-row align-items-center">
+                
+                <a class="nav-link" href="/pages/pagesAoE2/AoE2_Main.html"></a>
+                    <img src="/img/AoE2Assets/bannerAoE2.png" class="img-fluid" width="300" height="auto" alt="Logo del sitio">
+                </a>       
+                
+                
+
+                
+
+                    <nav class="flex flex-row text-center">
+
+
+                          <ul class="navbar-nav flex flex-row justify-content-evenly align-items-center">
+        
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/pages/AoE2_Main.html">Civilizations</a>
+                            </li>
+        
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Units</a>
+                            </li>
+        
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Tech</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Campaigns</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">History</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/pagesAoE2/AoE2_PlayerList.html">Players</a>
+                            </li>
+        
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Store</a>
+                            </li>
+                            
+                          </ul>
+
+                      </nav>
+
+            </div>
+
+        </header>
+
+        <div class="container">
+            <h1>Civilization searcher</h1>
+            <div>
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Search for a Civ"
+                />
+            </div>
+            <ul id="civList" class="civilizations"></ul>
+        </div>
+        <script src="/script/AoE2 Scripts/civSearcher2.js"></script>
+        <script src="/libs/bootstrap/js/bootstrap.bundle.js"></script>
+    </body>
+</html>

@@ -15,8 +15,3 @@ body {
     transition: 0.4s;
     border: 5px solid rgb(255, 255, 255);
 }
-
-#listaJuegos {
-    border: solid 1px black;
-    background-color: rgba(255, 255, 255, 0.289);
-}
