@@ -34,7 +34,7 @@ const civilizations = [
 
     "expansion": "African Kingdoms",
     
-    "culture": "",
+    "culture": "African",
 
     "army_type": "Calvary and Naval",
 
@@ -59,7 +59,7 @@ const civilizations = [
 
     "expansion": "Dawn of the Dukes",
 
-    "culture": "",
+    "culture": "Eastern European",
 
     "army_type": "Monks and Gunpowder",
 
