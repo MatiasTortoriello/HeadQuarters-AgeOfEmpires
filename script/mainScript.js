@@ -1,6 +1,6 @@
 // Objetos:
 
-class Videojuego {
+/*class Videojuego {
     constructor (nombreJuego, nuevoGenero, nuevoDesarrollador, nuevaFecha) {
 
         this.nombre = nombreJuego,
@@ -37,7 +37,7 @@ listaDeJuegos.sort((a,b) => {
     return 0
 })
 
-console.log(listadoCompleto);
+console.log(listadoCompleto);*/
 
 /*function agregarJuego(){
     this.nombre = prompt("Ingrese el nombre del juego");
@@ -50,7 +50,7 @@ console.log(listadoCompleto);
 
 agregarJuego();*/
 
-console.log(document.body)
+/*console.log(document.body)
 
 let imprimirListaJuegos = document.getElementById("listaJuegos")
 
@@ -62,4 +62,8 @@ listadoCompleto.forEach(element => {
     <strong>Juego número ${index+1}: <strong>  ${element.nombre}
     </p>
     `
-})
+})*/
+
+$(function(){
+    $().timelinr();
+ });
