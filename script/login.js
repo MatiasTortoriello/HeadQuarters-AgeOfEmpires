@@ -1,4 +1,12 @@
+let login = document.getElementById('loginButton');
+
+login.addEventListener("click", (e) => {
+    e.preventDefault ();
+    validate()
+})
+
 const validate = () => {
+    
     let username=document.getElementById("username").value;
     let password=document.getElementById("password").value;
     if (username == "user" && (password == "pass"))
