@@ -13,6 +13,6 @@ const validate = () => {
     {
         window.location.href = "/pages/AoE2_Main.html";
     } else {
-        alert ("Nope!");
+        alert ("Incorrect data, peasant. Get back to your farm!");
     }
     }
