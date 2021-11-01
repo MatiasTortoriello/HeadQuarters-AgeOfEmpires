@@ -4,7 +4,37 @@ body {
     background-size: cover ;
     background-attachment: fixed;
     font-family: 'IM Fell English SC', serif;
+    color: white;
 }
+
+h1 {
+  color: #eee;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* NAV */
+
+nav{
+background-color: rgba(255, 255, 255, 0.611);
+border: 5px solid rgb(123, 90, 56);
+font-size: larger;
+color: black;
+}
+
+nav ul a{
+  text-decoration: none;
+  text-shadow: -3px 2px 2px rgb(114, 107, 107);
+  color: black;
+  font-weight: 600;
+}
+
+nav ul a:hover{
+  text-shadow: -3px 2px 2px rgb(202, 202, 202);
+  color: rgb(75, 75, 75);
+}
+
+/* LOGIN */
 
 .loginFrame{
     width: 100%;
@@ -162,37 +192,6 @@ body {
             opacity: 0.2;
           }
 
-
-
-          h1 {
-            color: #eee;
-            margin-bottom: 30px;
-            margin-top: 20px;
-        }
-        
-        body {
-            color: white;
-        }
-        
-        nav{
-        background-color: rgba(255, 255, 255, 0.611);
-        border: 5px solid rgb(123, 90, 56);
-        font-size: larger;
-        color: black;
-        }
-        
-        nav ul a{
-            text-decoration: none;
-            text-shadow: -3px 2px 2px rgb(114, 107, 107);
-            color: black;
-            font-weight: 600;
-        }
-        
-        nav ul a:hover{
-            text-shadow: -3px 2px 2px rgb(202, 202, 202);
-            color: rgb(75, 75, 75);
-        }
-        
         #ageInfo{
             margin: 4%;
             border: 2px solid black;
