@@ -3,13 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
         <link href="/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/styles.css">
         <link rel="stylesheet" href="/styles/AoE2 Styles/AoE2_Styles.css">
 
-        <link rel="icon" href="/img/iconAoE2.png" type="image/x-icon">
+        <<link rel="icon" href="/img/iconAoE2.png" type="image/x-icon">
         <title> HeadQuarters - Age of Empires 2</title>
     </head>
 
@@ -47,17 +47,22 @@
 
         </header>
 
-        <section class="text-center mainStore m-5">
+        <div class="container">
+            <h1>Civilization searcher</h1>
             <div>
-                <h1>Store</h1>
-                <hr>
+                <form action="#" name="searchBar">
+                <input
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Search for a Civ"
+                />
+            </form>
             </div>
-
-            <div>
-                <p>asd</p>
-            </div>
-        </section>
-
+            <ul id="civList" class="civilizations"></ul>
+        </div>
+        <script src="/script/AoE2 Scripts/civDatabase.js"></script>
+        <script src="/script/AoE2 Scripts/civSearcher.js"></script>
         <script src="/libs/bootstrap/js/bootstrap.bundle.js"></script>
     </body>
 </html>

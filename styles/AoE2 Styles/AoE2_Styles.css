@@ -28,9 +28,7 @@ nav ul a:hover{
 }
 
 #ageInfo{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
+    margin: 4%;
     border: 2px solid black;
     background-color: rgba(0, 0, 0, 0.275);
     padding: 1%;
@@ -43,9 +41,7 @@ nav ul a:hover{
 
 /* CIVS */
 .container {
-
     margin: 0 auto;
-    max-width: 1000%;
     text-align: center;
 }
 
@@ -100,16 +96,12 @@ nav ul a:hover{
 }
 
 .player-input {
-
- 
     background-color: #ffffff00;
     font-family: 'IM Fell English SC', serif;
     color: #001219;
 }
 
 .form-players {
- 
-
     text-align: center;
     font-size: 1.2rem;
     padding: 1rem;
