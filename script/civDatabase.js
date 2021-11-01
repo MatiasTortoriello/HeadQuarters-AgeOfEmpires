@@ -8,7 +8,9 @@ const civilizations = [
     
     "expansion": "Conquerors",
 
-    "culture": "Native American",
+    "continent": "America",
+
+    "culture": "NativeAmerican",
     
     "army_type": "Infantry and Monk",
     
@@ -33,8 +35,10 @@ const civilizations = [
     "name": "Berbers",
 
     "expansion": "African Kingdoms",
+
+    "continent": "Africa",
     
-    "culture": "African",
+    "culture": "MiddleEastern",
 
     "army_type": "Calvary and Naval",
 
@@ -59,7 +63,9 @@ const civilizations = [
 
     "expansion": "Dawn of the Dukes",
 
-    "culture": "Eastern European",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "Monks and Gunpowder",
 
@@ -86,7 +92,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "WesternEuropean",
 
     "army_type": "Foot Archer",
 
@@ -111,7 +119,9 @@ const civilizations = [
 
     "expansion": "Last Khans",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "Infantry and Cavalry",
 
@@ -137,7 +147,9 @@ const civilizations = [
 
     "expansion": "Lords of the West",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "WesternEuropean",
 
     "army_type": "Cavalry",
 
@@ -163,7 +175,9 @@ const civilizations = [
     
     "expansion": "Rise of Rajas",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "SouthEastAsian",
     
     "army_type": "Monk and Elephant",
     
@@ -188,7 +202,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "Mediterranean",
 
     "army_type": "Defense",
 
@@ -215,7 +231,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "WesternEuropean",
 
     "army_type": "Infantry and Siege Weapons",
 
@@ -241,7 +259,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "EastAsian",
 
     "army_type": "",
 
@@ -262,7 +282,9 @@ const civilizations = [
 
     "expansion": "Last Khans",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "CentralAsian",
 
     "army_type": "",
 
@@ -283,7 +305,9 @@ const civilizations = [
 
     "expansion": "African Kingdoms",
 
-    "culture": "",
+    "continent": "Africa",
+
+    "culture": "African",
 
     "army_type": "",
 
@@ -304,7 +328,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "WesternEuropean",
 
     "army_type": "",
 
@@ -325,7 +351,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "CentralEuropean",
 
     "army_type": "",
 
@@ -346,7 +374,9 @@ const civilizations = [
 
     "expansion": "Conquerors",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "CentralEuropean",
 
     "army_type": "",
 
@@ -367,7 +397,9 @@ const civilizations = [
 
     "expansion": "Forgotten",
 
-    "culture": "",
+    "continent": "America",
+
+    "culture": "NativeAmerican",
 
     "army_type": "",
 
@@ -388,7 +420,9 @@ const civilizations = [
 
     "expansion": "Forgotten",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "SouthAsian",
 
     "army_type": "",
 
@@ -409,7 +443,9 @@ const civilizations = [
 
     "expansion": "Forgotten",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "Mediterranean",
 
     "army_type": "",
 
@@ -430,7 +466,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "EastAsian",
 
     "army_type": "",
 
@@ -451,7 +489,9 @@ const civilizations = [
 
     "expansion": "Rise of the Rajas",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "SouthEastAsian",
 
     "army_type": "",
 
@@ -472,7 +512,9 @@ const civilizations = [
 
     "expansion": "Conquerors",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "EastAsian",
 
     "army_type": "",
 
@@ -493,7 +535,9 @@ const civilizations = [
 
     "expansion": "Last Khans",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "",
 
@@ -514,7 +558,9 @@ const civilizations = [
 
     "expansion": "Forgotten",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "",
 
@@ -535,7 +581,9 @@ const civilizations = [
 
     "expansion": "Rise of the Rajas",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "SouthEastAsian",
 
     "army_type": "",
 
@@ -555,8 +603,10 @@ const civilizations = [
     "name": "Malians",
 
     "expansion": "African Kingdoms",
+
+    "continent": "Africa",
     
-    "culture": "",
+    "culture": "African",
 
     "army_type": "",
 
@@ -577,7 +627,9 @@ const civilizations = [
 
     "expansion": "Conquerors",
 
-    "culture": "",
+    "continent": "America",
+
+    "culture": "NativeAmerican",
 
     "army_type": "",
 
@@ -598,7 +650,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "EastAsian",
 
     "army_type": "",
 
@@ -619,7 +673,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "MiddleEastern",
 
     "army_type": "",
 
@@ -640,7 +696,9 @@ const civilizations = [
 
     "expansion": "Dawn of the Dukes",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "",
 
@@ -659,9 +717,11 @@ const civilizations = [
 
     "name": "Portuguese",
 
-    "expansion": "Forgotten",
+    "expansion": "African Kingdoms",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "Mediterranean",
 
     "army_type": "",
 
@@ -682,7 +742,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "MiddleEastern",
 
     "army_type": "",
 
@@ -703,7 +765,9 @@ const civilizations = [
 
     "expansion": "Lords of the West",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "Mediterranean",
 
     "army_type": "",
 
@@ -724,7 +788,9 @@ const civilizations = [
 
     "expansion": "Forgotten",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "EasternEuropean",
 
     "army_type": "",
 
@@ -745,7 +811,9 @@ const civilizations = [
 
     "expansion": "Conquerors",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "Mediterranean",
 
     "army_type": "",
 
@@ -766,7 +834,9 @@ const civilizations = [
 
     "expansion": "Last Khans",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "CentralAsian",
 
     "army_type": "",
 
@@ -787,7 +857,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "CentralEuropean",
 
     "army_type": "",
 
@@ -808,7 +880,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "MiddleEastern",
 
     "army_type": "",
 
@@ -829,7 +903,9 @@ const civilizations = [
 
     "expansion": "Rise of the Rajas",
 
-    "culture": "",
+    "continent": "Asia",
+
+    "culture": "EastAsian",
 
     "army_type": "",
 
@@ -850,7 +926,9 @@ const civilizations = [
 
     "expansion": "Age of Kings",
 
-    "culture": "",
+    "continent": "Europe",
+
+    "culture": "CentralEuropean",
 
     "army_type": "",
 
