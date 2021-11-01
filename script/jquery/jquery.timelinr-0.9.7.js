@@ -227,19 +227,19 @@ jQuery.fn.timelinr = function(options){
         if(settings.orientation=='horizontal') {
           $(document).keydown(function(event){
             if (event.keyCode == 39) {
-                 $(settings.nextButton).click();
+                $(settings.nextButton).click();
               }
             if (event.keyCode == 37) {
-                 $(settings.prevButton).click();
+                $(settings.prevButton).click();
               }
           });
         } else if(settings.orientation=='vertical') {
           $(document).keydown(function(event){
             if (event.keyCode == 40) {
-                 $(settings.nextButton).click();
+                $(settings.nextButton).click();
               }
             if (event.keyCode == 38) {
-                 $(settings.prevButton).click();
+                $(settings.prevButton).click();
               }
           });
         }
