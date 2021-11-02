@@ -1,7 +1,7 @@
 const form = document.forms.addPlayer;
 const table = document.querySelector('tbody');
 
-form.button.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
 
     e.preventDefault();
     Helper.savePlayer(new Player({
@@ -13,6 +13,7 @@ form.button.addEventListener("click", (e) => {
     }));
 
     Helper.updateData();
+    form.reset()
 });
 
 document.querySelector('tbody').addEventListener("click", (e) => {
