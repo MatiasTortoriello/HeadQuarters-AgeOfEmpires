@@ -31,4 +31,3 @@ document.querySelector('tbody').addEventListener("click", (e) => {
 });
 
 Helper.updateData();
-
