@@ -190,34 +190,35 @@ nav ul a:hover{
         
         
         /* CIVS */
-        .container {
-            margin: 0 auto;
-            text-align: center;
-        }
         
         #civList {
-            padding-inline-start: 0;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(190px, 4fr));
-            grid-gap: 1rem;
-        }
-        
-        .civilizations {
+          padding-inline-start: 0;
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            overflow-x: auto;
+            border: solid 1px white;
+            position: relative;
             list-style-type: none;
-            background-color: #00000000;
-            padding: 10px 20px;
+            background-color: #c91f1f2f;
             text-align: center;
             margin-top: 10px;
             filter: brightness(90%);
         }
         
-        .civilizations a{
+        #civList a{
             text-decoration: none;
             color: rgb(255, 255, 255);
-            text-shadow: 3px 2px 2px rgb(0, 0, 0);
+            text-shadow: 4px 3px 3px rgb(0, 0, 0);
+        }
+
+        #civList li {
+          display: flex;
+          flex-direction: column;
+          margin: 15px;
         }
         
-        .civilizations li img:hover{
+        #civList li img:hover{
             filter: brightness(120%);
             transition: 1s;
             transform: scale(1.1);
@@ -227,9 +228,27 @@ nav ul a:hover{
         #searchBar {
             width: 50%;
             height: 32px;
-            border: 1px solid #eaeaea;
+            border: 2px solid #000000;
             padding: 5px 10px;
-            font-size: 12px;
+            font-size: 1rem;
+        }
+
+        .arrows{
+          position: absolute;
+          top:63%;
+          font-size: 60px;
+          font-weight: bold;
+          color: white;
+          cursor: pointer;
+          left: .5%;
+          z-index: 1;
+        }
+
+        .arrows:nth-of-type(2){
+          left: 98%;
+          text-align: right;
+
+
         }
         
         /*UNITS*/

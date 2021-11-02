@@ -42,7 +42,7 @@
 
         </header>
 
-        <div class="container">
+        <div class="container-fluid text-center">
             <h1>Civilization searcher</h1>
             <div>
                 <form action="#" name="searchBar">
@@ -54,7 +54,11 @@
                 />
             </form>
             </div>
-            <h2>Filter by continent</h2>
+
+            <hr class="solid">
+
+            <h2 class="mt-2">Filter by continent</h2>
+            
             <div>
                 <button id="allCivs">All</button>
                 <button id="europe">Europe</button>
@@ -62,8 +66,14 @@
                 <button id="america">America</button>
                 <button id="africa">Africa</button>
             </div>
-            <ul id="civList" class="civilizations"></ul>
+
+            <hr class="solid">
+
+            <ul id="civList" class="civilizations">
+
+            </ul>
         </div>
+
         <script src="/script/jquery.js"></script>
         <script src="/script/civShowcase.js"></script>
         <script src="/script/civDatabase.js"></script>

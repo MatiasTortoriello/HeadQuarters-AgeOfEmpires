@@ -22,7 +22,7 @@ const loadElements = (array) => {
         <li class="${civ.continent} ${civ.culture}">
         <h3><a href="/pages/Civilizations/${civ.name}.html">${civ.name}</a><h3>
         <a href="/pages/Civilizations/${civ.name}.html">
-        <img class="img-fluid" src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
+        <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
         </a>
         </li>
         `;
