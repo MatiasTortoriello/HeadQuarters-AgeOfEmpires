@@ -206,13 +206,13 @@ nav ul a:hover{
             filter: brightness(90%);
         }
         
-        #civList a{
+        #civList h3{
             text-decoration: none;
             color: rgb(255, 255, 255);
             text-shadow: 4px 3px 3px rgb(0, 0, 0);
         }
 
-        #civList li {
+        #civList li{
           display: flex;
           flex-direction: column;
           margin: 15px;
@@ -233,22 +233,8 @@ nav ul a:hover{
             font-size: 1rem;
         }
 
-        .arrows{
-          position: absolute;
-          top:63%;
-          font-size: 60px;
-          font-weight: bold;
-          color: white;
-          cursor: pointer;
-          left: .5%;
-          z-index: 1;
-        }
-
-        .arrows:nth-of-type(2){
-          left: 98%;
-          text-align: right;
-
-
+        #civShowcase{
+          display: flex;
         }
         
         /*UNITS*/
@@ -266,14 +252,7 @@ nav ul a:hover{
           margin: 10px;
           border: solid 1px white;
         }
-        
-        .box1{
-          height: 100px;
-          width: 100px;
-          background-color: red;
-          display: none;
-        }
-        
+                
         /*PLAYER LIST*/
         
         .main-input {
@@ -348,4 +327,3 @@ nav ul a:hover{
             background-color: rgba(0, 0, 0, 0.145);
             border: solid 1px black;
         }
-        

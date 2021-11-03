@@ -19,11 +19,11 @@ const loadElements = (array) => {
 
     array.forEach(civ => {
         civList.innerHTML +=  `
-        <li class="${civ.continent} ${civ.culture}">
-        <h3><a href="/pages/Civilizations/${civ.name}.html">${civ.name}</a><h3>
-        <a href="/pages/Civilizations/${civ.name}.html">
+        <li class="${civ.continent} ${civ.culture}" id="showCiv">
+        <h3>${civ.name}<h3>
+        
         <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
-        </a>
+        
         </li>
         `;
     });
@@ -32,3 +32,14 @@ const loadElements = (array) => {
 loadElements(civilizations);
 
 document.forms.searchBar.addEventListener("input", filterByName);
+
+/*document.getElementById('showCiv').addEventListener('click', function () {
+
+})*/
+
+let showcase = document.getElementById('showCiv')
+
+showcase.addEventListener('click', (e) => {
+    console.log(e.target)
+})
+
