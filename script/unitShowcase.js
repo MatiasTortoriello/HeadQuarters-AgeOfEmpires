@@ -6,9 +6,20 @@ showcaseTownCenter.addEventListener('click', (e) => {
 })
 */
 
-let barracks = document.querySelector('#barracks')
+/*let barracks = document.querySelector('#barracks')
 let archeryRange = document.querySelector('#archeryRange')
 let stable = document.querySelector('#stable')
 let dock = document.querySelector('#dock')
-let siegeWorkshop = document.querySelector('#siegeWorkshop')
+let siegeWorkshop = document.querySelector('#siegeWorkshop')*/
+
+const url = "/json/AoE2_Units.json"
+
+$.get(url, (data, state) => {
+    if (state == "success") {
+        data.forEach(element => {
+            console.log(element.name + ' ' + element.age)
+
+        });
+    }
+})
 
