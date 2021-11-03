@@ -17,8 +17,16 @@ const url = "/json/AoE2_Units.json"
 $.get(url, (data, state) => {
     if (state == "success") {
         data.forEach(element => {
-            console.log(element.name + ' ' + element.age)
+            $("#unitTable").append(
+                `
+            <tr>
+            <td>${element.name}</td>
+            <td>${element.description}</td>
+            </tr>
 
+            `
+            );
+            
         });
     }
 })
