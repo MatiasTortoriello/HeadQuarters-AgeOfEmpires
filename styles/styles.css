@@ -242,14 +242,14 @@ nav ul a:hover{
         #unitList{
           display: flex;
           flex-direction: row;
-          justify-content: center;
+          justify-content: space-around;
           align-items: center;
         }
 
         #unitList img{
-          width: 190px;
+          width: 100%;
           height: auto;
-          margin: 10px;
+          padding: 1px;
           border: solid 1px white;
         }
                 

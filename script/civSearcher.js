@@ -32,14 +32,3 @@ const loadElements = (array) => {
 loadElements(civilizations);
 
 document.forms.searchBar.addEventListener("input", filterByName);
-
-/*document.getElementById('showCiv').addEventListener('click', function () {
-
-})*/
-
-let showcase = document.getElementById('showCiv')
-
-showcase.addEventListener('click', (e) => {
-    console.log(e.target)
-})
-
