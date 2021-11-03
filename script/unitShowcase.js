@@ -22,6 +22,7 @@ $.get(url, (data, state) => {
             <tr>
             <td>${element.name}</td>
             <td>${element.description}</td>
+            <td>${element.description}</td>
             </tr>
 
             `
