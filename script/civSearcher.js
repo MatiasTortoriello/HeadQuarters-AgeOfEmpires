@@ -10,6 +10,7 @@ const filterByName = (e) => {
     loadElements(filter);
 }
 
+
 const loadElements = (array) => {
 
     const civList = document.getElementById('civList');
@@ -18,11 +19,9 @@ const loadElements = (array) => {
 
     array.forEach(civ => {
         civList.innerHTML +=  `
-        <li class="${civ.continent} ${civ.culture}" id="showCiv">
+        <li class="${civ.continent} ${civ.culture}">
         <h3>${civ.name}<h3>
-        
-        <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
-        
+        <img  id="showCiv" src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
         </li>
         `;
     });
@@ -31,3 +30,7 @@ const loadElements = (array) => {
 loadElements(civilizations);
 
 document.forms.searchBar.addEventListener("input", filterByName);
+
+let showCiv = document.querySelector("#showCiv")
+
+console.log(showCiv)
