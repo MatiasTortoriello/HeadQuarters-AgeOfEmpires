@@ -10,7 +10,6 @@ const filterByName = (e) => {
     loadElements(filter);
 }
 
-
 const loadElements = (array) => {
 
     const civList = document.getElementById('civList');
