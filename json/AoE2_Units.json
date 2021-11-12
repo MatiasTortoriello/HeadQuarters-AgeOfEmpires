@@ -224,31 +224,6 @@
       ]
     },
     {
-      "id": 10,
-      "name": "Eagle Warrior",
-      "description": "Fast infantry with extensive sight; resists conversion; attack bonus vs. Monks",
-      "expansion": "The Conquerors",
-      "age": "Castle",
-      "created_in": "barracks",
-      "cost": {
-        "Food": 20,
-        "Gold": 50
-      },
-      "build_time": 35,
-      "reload_time": 2,
-      "movement_rate": 1.1,
-      "line_of_sight": 6,
-      "hit_points": 50,
-      "attack": 7,
-      "armor": "0/2",
-      "attack_bonus": [
-        "+8 monks",
-        "+3 siege",
-        "+2 cavalry",
-        "+1 ship/camel"
-      ]
-    },
-    {
       "id": 11,
       "name": "Elite Eagle Warrior",
       "description": "Upgraded Eagle Warrior",
@@ -1104,7 +1079,7 @@
     {
       "id": 59,
       "name": "Camel",
-      "description": "Excels at killing other mounted units. (not classified as cavalry)",
+      "description": "Excels at killing other mounted units.",
       "expansion": "Age of Kings",
       "age": "Castle",
       "created_in": "stable",
@@ -1127,7 +1102,7 @@
     {
       "id": 60,
       "name": "Heavy Camel",
-      "description": "Upgraded Camel. Attack bonus vs. cavalry. (not classified as cavalry)",
+      "description": "Upgraded Camel. Attack bonus vs. cavalry.",
       "expansion": "Age of Kings",
       "age": "Imperial",
       "created_in": "stable",
@@ -1204,26 +1179,6 @@
       "hit_points": 160,
       "attack": 14,
       "armor": "2/3"
-    },
-    {
-      "id": 64,
-      "name": "Scout Cavalry",
-      "description": "Fast with extensive line of sight. Resistant to conversion and +2 Line of sight per age",
-      "expansion": "Age of Kings",
-      "age": "Dark",
-      "created_in": "stable",
-      "cost": {
-        "info": "All civilizations except Mayans and Aztecs start with an scout cavalry"
-      },
-      "reload_time": 2,
-      "movement_rate": 1.2,
-      "line_of_sight": 4,
-      "hit_points": 45,
-      "attack": 3,
-      "armor": "0/2",
-      "attack_bonus": [
-        "+6 monks"
-      ]
     },
     {
       "id": 65,

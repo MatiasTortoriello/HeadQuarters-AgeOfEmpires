@@ -9,7 +9,7 @@ $.get(url, (data, state) => {
             <td>${element.name}</td>
             <td>${element.description}</td>
             <td>${element.age}</td>
-            <td>${element.cost}</td>
+            <td>${element.cost[element]}</td>
             </tr>
 
             `
@@ -25,10 +25,6 @@ $("#barracks").on("click", () => {
     $(".archeryRange").fadeOut();
     $(".dock").fadeOut();
     $(".siegeWorkshop").fadeOut();
-    $(".castle").fadeOut();
-    $(".Gaia").fadeOut();
-    $(".market").fadeOut();
-    $(".monastery").fadeOut();
 })
 
 $("#stable").on("click", () => {
@@ -37,10 +33,6 @@ $("#stable").on("click", () => {
     $(".archeryRange").fadeOut();
     $(".dock").fadeOut();
     $(".siegeWorkshop").fadeOut();
-    $(".castle").fadeOut();
-    $(".Gaia").fadeOut();
-    $(".market").fadeOut();
-    $(".monastery").fadeOut();
 })
 
 $("#siegeWorkshop").on("click", () => {
@@ -49,10 +41,6 @@ $("#siegeWorkshop").on("click", () => {
     $(".archeryRange").fadeOut();
     $(".dock").fadeOut();
     $(".siegeWorkshop").fadeIn();
-    $(".castle").fadeOut();
-    $(".Gaia").fadeOut();
-    $(".market").fadeOut();
-    $(".monastery").fadeOut();
 })
 
 $("#archeryRange").on("click", () => {
@@ -61,10 +49,6 @@ $("#archeryRange").on("click", () => {
     $(".archeryRange").fadeIn();
     $(".dock").fadeOut();
     $(".siegeWorkshop").fadeOut();
-    $(".castle").fadeOut();
-    $(".Gaia").fadeOut();
-    $(".market").fadeOut();
-    $(".monastery").fadeOut();
 })
 
 $("#dock").on("click", () => {
@@ -73,8 +57,4 @@ $("#dock").on("click", () => {
     $(".archeryRange").fadeOut();
     $(".dock").fadeIn();
     $(".siegeWorkshop").fadeOut();
-    $(".castle").fadeOut();
-    $(".Gaia").fadeOut();
-    $(".market").fadeOut();
-    $(".monastery").fadeOut();
 })

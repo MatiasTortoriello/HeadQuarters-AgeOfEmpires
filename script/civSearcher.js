@@ -26,14 +26,21 @@ const getCiv = async(id) => {
 const showCivilization = (civ) => {
     const container = document.querySelector('#civShowcase');
     container.innerHTML = `
-    <img  id="showCiv" src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
-    <h2>${civ.name}</h2>
+    
+    <div class="civProperties text-center">
+    <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
+        <h2>${civ.name}</h2>
+        <p>${civ.culture} culture (${civ.continent})<p>
+        <p>${civ.info}</p>
+
+    </div>
     `;
 }
 
+
 document.getElementById('civList').addEventListener('click', async(e) => {
     const element = e.target;
-    if (element.tagName === "H3") {
+    if (element.tagName === "IMG") {
         const civ = await getCiv(element.parentNode.id);
         showCivilization(civ);
     }
@@ -61,10 +68,12 @@ const loadElements = (array) => {
 
     array.forEach(civ => {
         civList.innerHTML += `
-        <li id="${civ.id}" class="${civ.continent} ${civ.culture} showCiv">
-        <h3>${civ.name}<h3>
-        <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
+        <div class="text-center ${civ.continent} showCiv">
+        <p class="border bg-black">${civ.name}</p>
+        <li id="${civ.id}">
+                <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
         </li>
+        </div>
         `;
     });
 }
@@ -72,7 +81,3 @@ const loadElements = (array) => {
 loadElements(civilizations);
 
 document.forms.searchBar.addEventListener("input", filterByName);
-
-let showCiv = document.querySelector("#showCiv")
-
-console.log(showCiv)
