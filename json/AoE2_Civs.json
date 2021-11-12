@@ -418,6 +418,7 @@
     "Cavalry Archers are 10%/20% cheaper in the Castle/Imperial Age",
     "Trebuchets have +30% accuracy against units"]
 },
+
 {
     "id": 16,
 
@@ -445,6 +446,7 @@
         "Houses support 10 population",
         "Buildings cost -15% stone"]
 },
+
 {
     "id": 17,
 
@@ -470,6 +472,7 @@
         "Villagers are 10%/15%/20%/25% cheaper in the Dark/Feudal/Castle/Imperial Age",
         "Stable units have +1/+2 pierce armor in the Castle/Imperial Age"]
 },
+
 {
     "id": 18,
 
@@ -496,6 +499,7 @@
     "Fishing Ships are 15% cheaper",
     "Gunpowder units are 20% cheaper"]
 },
+
 {
     "id": 19,
 
@@ -521,6 +525,7 @@
     "Mills, Lumber Camps and Mining Camps are 50% cheaper",
     "Infantry attack 33% faster starting in the Feudal Age"]
 },
+
 {
     "id": 20,
 
@@ -532,18 +537,22 @@
 
     "culture": "South-east asian",
 
-    "army_type": "",
+    "army_type": "Siege weapons and elephants",
 
-    "unique_unit": [],
+    "unique_unit": ["Ballista Elephant"],
 
-    "unique_tech": [],
+    "unique_tech": ["Tusk Swords", "Double Crossbow"],
 
-    "team_bonus": "",
+    "team_bonus": "Scorpions have +1 range",
 
-    "info":"",
+    "info":"The Khmer are classified as an elephant and siege civilization, and they really shine in their advertised departments. Their Battle Elephants are particularly dangerous as they get a notable speed boost which, along with Husbandry, effectively addresses their greatest weakness which is the low speed (although they are still not fast enough to escape Halberdiers). Additionally, they get +3 attack out of Tusk Swords which lifts their attack to levels only the Elite War Elephant sits in. Their cavalry department in general is fairly usable, too, but they are missing key traits such as the Paladin, which is why the Battle Elephant is usually the cavalry unit of choice. The infantry is rather weak without Champions, Squires, Supplies and Plate Mail Armor. Their archers are average even without Thumb Ring, although their Cavalry Archers get Parthian Tactics. The Khmer siege weapons are excellent for one reason: their Scorpions.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["No buildings are required to advance to the next age or to unlock other buildings",
+        "Battle Elephants move 10% faster",
+        "Farmers don't carry food but rather add it directly to the stockpile without any drop-off, but work 5% slower",
+        "Villagers can garrison in Houses"]
 },
+
 {
     "id": 21,
 
@@ -555,18 +564,23 @@
 
     "culture": "East asian",
 
-    "army_type": "",
+    "army_type": "Towers and navy",
 
-    "unique_unit": [],
+    "unique_unit": ["War Wagon", "Turtle Ship"],
 
-    "unique_tech": [],
+    "unique_tech": ["Eupseong", "Shinkichon"],
 
-    "team_bonus": "",
+    "team_bonus": "Mangonel line minimum range reduced to 1",
 
-    "info":"",
+    "info":"The Koreans focus on ships and towers and are a rather defensive civilization. As such, their non-ranged units are not very prominent. The lack of Blast Furnace hinders infantry and cavalry alike and the latter is further limited in its capabilities by the lack of Bloodlines and Plate Barding Armor. Their archers, however, get all the upgrades there are, including Hand Cannoneers. Their siege weapons are overall average without Heavy Scorpions and Siege Rams, but they get excellent Siege Onagers with greater range and shorter minimum range. Also, they get Bombard Cannons. The Koreans lack Demolition Ships completely, but get Turtle Ships, which are a major asset in naval battles, making the Koreans an overall very strong naval civilization. Their Monks are overall weak. The defensive structures are a selling point for the Koreans despite the missing Hoardings. The towers get all upgrades (most notably Arrowslits), upgrade themselves for free, and the unique technology Eupseong gives them +2 range, bringing the range to a total of 13 - enough to retaliate to even Bombard Cannons (bar Turkish ones). Also, the fortifications are built faster. Put together with the stone mining bonus which increases the stone gathering speed, that makes the Koreans a civilization with outstanding defensive capabilities. The overall good economy is also helpful there.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Villagers have +3 Line of Sight",
+    "Stone Miners work 20% faster",
+    "Tower upgrades are free (Bombard Tower requires Chemistry)",
+    "Archer Armor upgrades are free",
+    "Military units cost –20% less wood (except siege weapons)"]
 },
+
 {
     "id": 22,
 
@@ -578,18 +592,21 @@
 
     "culture": "Eastern european",
 
-    "army_type": "",
+    "army_type": "Cavalry and monks",
 
-    "unique_unit": [],
+    "unique_unit": ["Leitis"],
 
-    "unique_tech": [],
+    "unique_tech": ["Hill Forts", "Towers shields"],
 
-    "team_bonus": "",
+    "team_bonus": "Monasteries work 20% faster",
 
-    "info":"",
+    "info":"As a cavalry and Monk civilization, they have complete upgrades and technologies (also access to the Paladin upgrade) for both of their strengths, and the Leitis whose attack ignores melee armor. Furthermore, their Knight line and Leiciai gain +1 attack from each garrisoned Relic (up to +4), making the Lithuanian cavalry a force to fear, and even supreme over other cavalry civilizations such as the Berbers, Franks or Magyars. Their Monasteries also work 20% faster, which synergies with their excellent monks.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start with +150 food",
+    "Spearman line and Skirmishers move 10% faster",
+    "Each garrisoned Relic gives +1 attack to Knights and Leitis (maximum +4)"]
 },
+
 {
     "id": 23,
 
@@ -601,18 +618,21 @@
 
     "culture": "Eastern european",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["Magyar Huszar"],
 
-    "unique_tech": [],
+    "unique_tech": ["Corvinian Army", "Recurve bow"],
 
-    "team_bonus": "",
+    "team_bonus": "Foot archers (except Skirmishers) have +2 Line of Sight",
 
-    "info":"",
+    "info":"The Magyars are a cavalry civilization. As such, they have outstanding mounted units at their disposal. They get the rare Paladin with all upgrades, the Hussar as well, and a Cavalry Archer that has no equal thanks to Recurve Bow. Their foot archers are also very good with their extra long Line of Sight. Their infantry struggles a bit without Plate Mail Armor and Squires. Same goes for their siege weapons which are average at best. Their navy is rather average, and the Monks are rather weak. The defensive structures are also rather lacking and so is their economy.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Forging, Iron Casting, and Blast Furnace are free.",
+    "Scout Cavalry line is 15% cheaper",
+    "Villagers kill wild animals in one strike"]
 },
+
 {
     "id": 24,
 
@@ -624,17 +644,20 @@
 
     "culture": "South-east asian",
 
-    "army_type": "",
+    "army_type": "Infantry and navy",
 
-    "unique_unit": [],
+    "unique_unit": ["Karambit warrior"],
 
-    "unique_tech": [],
+    "unique_tech": ["Thalassocracy", "Forced levy"],
 
-    "team_bonus": "",
+    "team_bonus": "Docks have double Line of Sight",
 
-    "info":"",
+    "info":"The Malay are primarily a naval civilization. Consequently, their naval technology tree is flawless apart from the missing Heavy Demolition Ship. Their true strength lies in naval economy, however. Their Fish Traps are cheaper and provide 3 times more food meaning a lot of wood can be saved which can make all the difference especially in longer games. Additionally, they can upgrade their Docks to Harbors which comes in handy when defending Fishing Ships on the shore. As far as their land units are concerned the Malay go for quantity rather than quality and lack really powerful units. A lot of final tier upgrades are missing (e.g. Champion, Hussar, Siege Ram), but they get cost reductions on their Two-Handed Swordsmen and Battle Elephants which makes massing them more easy. Generally speaking, their cavalry is downright terrible without even Chain Barding Armor. The infantry is fair, the archers are as well, at least the non-mounted ones. The siege weapons are rather underwhelming as well, but they do get Siege Engineers and Bombard Cannons. Their Monks are good. Their defensive structures are lacking, but their economy is overall strong.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Advancing in Age is +66% faster.",
+    "Fish Traps are 33% cheaper.",
+    "Fish Traps provide 3 times more food.",
+    "Battle Elephants are 30% cheaper in the Castle Age, 40% cheaper in the Imperial Age."]
 },
 {
     "id": 25,
@@ -647,17 +670,19 @@
 
     "culture": "African",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Gbeto"],
 
-    "unique_tech": [],
+    "unique_tech": ["Tigui", "Farimba"],
 
-    "team_bonus": "",
+    "team_bonus": "Universities work +80% faster",
 
-    "info":"",
+    "info":"The Malians are an infantry civilization. Despite this, they lack key infantry features with the Halberdier and Blast Furnace. Still, their infantry is excellent due to the increased pierce armor and the access to Gbetos that can be a devastating force especially against melee units. Their cavalry is also excellent because of Farimba that gives their Stable units a massive attack boost resulting in their Cavaliers getting a more powerful attack than Paladins and their Light Cavalry and Heavy Camel Rider are the strongest of all civilizations as well. The archers are also good, but suffer from the lack of Bracer. And so does their navy, that is very underwhelming with Galleons and Elite Cannon Galleons also missing. The siege weapons are below average, most notably Siege Rams and Siege Engineers are missing. The Monks are good, only Illumination is missing. Their defensive structures are average, their economy is good.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Buildings cost -15% wood (except Farms).",
+        "Barracks units have +1/+2/+3 pierce armor in the Feudal/Castle/Imperial Age.",
+        "Gold Mines last 30% longer."]
 },
 {
     "id": 26,
@@ -670,17 +695,20 @@
 
     "culture": "Native american",
 
-    "army_type": "",
+    "army_type": "Archers",
 
-    "unique_unit": [],
+    "unique_unit": ["Plumed archer"],
 
-    "unique_tech": [],
+    "unique_tech": ["Hul'che Javelineers", "El Dorado"],
 
-    "team_bonus": "",
+    "team_bonus": "Walls are 50% cheaper",
 
-    "info":"",
+    "info":"As a Native American civilization, the Mayans lack any form of cavalry and gunpowder. As a replacement, they get the Eagle Warrior which also gets a massive HP boost with El Dorado. Overall, their archer and infantry departments are strong with access to everything that does not ride a horse or wield a firearm (bar the Champion and Supplies). Their siege weapons miss the Siege Onager, but they get the Siege Ram and Heavy Scorpion. On the water, they have a complete tech tree (apart from the Cannon Galleon, naturally). Their Monks are average. Their defensive structures are overall strong and the same goes for their economy.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start the game with an Eagle Scout.",
+        "Start the game with +1 Villager, but with -50 food.",
+        "Resources last 15% longer.",
+        "Foot archers (except Skirmishers) are 10%/20%/30% cheaper in the Feudal/Castle/Imperial Age."]
 },
 {
     "id": 27,
@@ -693,17 +721,19 @@
 
     "culture": "East asian",
 
-    "army_type": "",
+    "army_type": "Cavalry archers",
 
-    "unique_unit": [],
+    "unique_unit": ["Mangudai"],
 
-    "unique_tech": [],
+    "unique_tech": ["Nomads", "Drill"],
 
     "team_bonus": "",
 
-    "info":"",
+    "info":"As a cavalry archer civilization, the Mongols have excellent Cavalry Archers, arguably the best of all civilizations. This is due to their higher Rate of Fire which greatly improves the effective damage output of not only Cavalry Archers, but also Mangudai. The other key unit of the Mongol army, the Hussar, comes with great advantages, too, with greater Line of Sight which is extremely beneficial in the very early game for scouting, and higher HP (and in the Definitive Edition, with Steppe Lancers affected by the HP boost). Put all together, these units form a very threatening and very mobile force. This also works great with their excellent siege weapons which also receive a great speed boost thanks to Drill. Outside these areas of expertise the Mongols fare rather poorly. Their other archers and cavalry units miss important upgrades at the Blacksmith. The infantry, however, is solid despite missing the Halberdier and Supplies. On the water, the lack of Dry Dock is really unfortunate since it means their ships miss out on an important speed boost. Otherwise, their navy is fair. Their Monks are among the worst of all civilizations, and their defensive structures and economy are also both very weak.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Cavalry archers fire 25% faster.",
+        "Light Cavalry, Hussars, and Steppe Lancers have +30% HP.",
+        "Hunters work +40% faster."]
 },
 {
     "id": 28,
@@ -716,17 +746,18 @@
 
     "culture": "Middle eastern",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["War Elephhant"],
 
-    "unique_tech": [],
+    "unique_tech": ["Kamandaran", "Mahouts"],
 
-    "team_bonus": "",
+    "team_bonus": "Knights have +2 attack against archers",
 
-    "info":"",
+    "info":"The Persians are a cavalry civilization. They have access to Hussars, Paladins, and Heavy Camels, with all their Stable and Blacksmith upgrades, which also benefits their unique unit, the War Elephant. And these food- and gold-intensive Cavalry units are sustained thanks to faster-working Town Centers, which provide Persians with a quick economic boom that aids into achieving the required Villager production of their key units.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start the game with +50 food and +50 wood.",
+    "Town Centers and Docks have double HP and work 10%/15%/20% faster in the Feudal/Castle/Imperial Age."]
 },
 {
     "id": 29,
