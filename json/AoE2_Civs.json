@@ -26,6 +26,7 @@
         "Loom free"
     ]
 },
+
 {
     "id": 2,
 
@@ -53,6 +54,7 @@
         " Ships move +10% faster"
     ]
 },
+
 {
     "id": 3,
 
@@ -72,7 +74,7 @@
 
     "team_bonus": "Markets work 80% faster",
 
-    "info":"",
+    "info": "The Bohemians are a civilization focused on gunpowder units and Monks. As such, they have solid gunpowder advantages such as early Chemistry and Hand Cannoneers. Their unique units are both gunpowder units as well, which also benefit from Wagonburg Tactics, which increases all gunpowder units' speed. They have cheaper Monasteries to support the creation of Monks, and all Monastery technologies are available. The Hussite Reforms will turn all the gold cost of all Monastery technologies and Monks into food, giving them a potential trash unit. Their infantry is also above average as they get all technologies available with more bonus attack for their Spearman line. The cavalry lines are one of the worst, lacking Bloodlines, Plate Barding Armor, and both Hussar and Paladin upgrades. Their archers are average, with only Thumb Ring missing. The early Chemistry will give them an edge in the Castle Age for their Crossbowmen and Skrimishers. It is noticeable that Cavalry Archers are completely absent from their technology tree. Outside of the Hounfice, their Siege Weapons are average, as they lack Siege Rams and Siege Onagers. Their navy is also terrible, as both Imperial Dock technologies, Heavy Demolition Ships, and Fast Fire Ships are missing. Their defense are average, lacking only Hoardings and Heated Shot. The economy is overall decent, as cheaper Blacksmith, Monastery, and University will save them wood, and they receive free Mining Camp technologies, whlie only Crop Rotation is lacking.",
 
     "civilization_bonus": [
         "Blacksmiths, Monasteries, and Universities cost -100 wood",
@@ -82,6 +84,7 @@
         "Mining Camp technologies free"
     ]
 },
+
 {
     "id": 4,
 
@@ -101,7 +104,7 @@
 
     "team_bonus": "Archery Ranges work 20% faster",
 
-    "info":"",
+    "info":"The Britons' main advantages are in their ranged units as they arguably have the best foot archers. They are trained faster and have a very long range. Their infantry is also very good with a complete tech tree. But their mounted units are very underwhelming and their siege weapons are also lacking. This is compensated to a degree by their very dangerous Trebuchets that aim at units with perfect accuracy and deal blast damage thanks to Warwolf. Their navy is strong with a full tech tree apart from Elite Cannon Galleons. The Monks are below average with three technologies missing. Their defensive structures are good, and their economy rather average, although their Shepherd bonus is very helpful early on.",
 
     "civilization_bonus": [
         "Town Centers cost -50% wood upon reaching the Castle Age",
@@ -109,6 +112,7 @@
         "Shepherds work 25% faster"
     ]
 },
+
 {
     "id": 5,
 
@@ -128,7 +132,7 @@
 
     "team_bonus": "Blacksmiths work 80% faster",
 
-    "info":"",
+    "info":"Bulgarians are classified as an infantry and cavalry civilization, which is essentially reflected in their unique unit, but both their branches are among the finest in the game; their stable units get all upgrades and technologies excluding the Paladin upgrade (plus having Stirrups to boost the attack speed of all of their cavalry); despite lacking the Champion upgrade, their militia-line upgrades are free and benefit from the additional melee armor of Bagains. Both lines are helped by their fast working Blacksmith (which also benefits their teammates) and with upgrades costing less food. Their Archery Range is on the other hand much weaker by lacking Crossbowman and Ring Archer Armor. Their siege weapons are excellent, as they have all upgrades and only lack Bombard Cannons and save a good amount of food upgrading siege. Their navy and Monks are lackluster, but their defenses are decent, thanks to their Krepost (their unique building which is essentially a lesser version of the Castle and can create Konniks), but still lack other important defensive technologies, and their economy is only hurt a bit by lacking Two-Man Saw and Guilds. They also have a stone discount for their Town Centers. Their Monks are far from the best, and it is worth remembering that Bulgarians with no siege might have a hard time dealing with mass Arbalesters or Cavalry Archers.",
 
     "civilization_bonus": [
         "Militia line units are upgraded for free",
@@ -137,6 +141,7 @@
         "Can build Krepost"
     ]
 },
+
 {
     "id": 6,
 
@@ -156,7 +161,7 @@
 
     "team_bonus": "Relics generate food in addition to gold",
 
-    "info":"",
+    "info":"The Burgundians are a cavalry civilization. They lack Bloodlines, but they still have prominent cavalry units such as Hussars, Paladins, and their unique unit, Coustillier, which can charge its attack. Their cheaper Scout and Knight line upgrades will make them easier to fully upgrade. The latter can be upgraded to Cavaliers in the Castle Age. Their infantry is also good, with only Supplies missing. With Flemish Revolution upgraded, their Villagers turn into Flemish Militia, which have a bonus to cavalry. Their archery lines are weak, lacking Arbalest and Heavy Cavalry Archers. To make matters worse, they also lack Thumb Ring, Parthian Tactics and Ring Archer Armor. Still, they have decent Hand Cannoneers, which have more attack. Their siege weapons are also one of the worst, except the Bombard Cannon. Their navy is also somewhat lacking, missing Dry Dock, Heavy Demolition Ships and Shipwright. Their Monks are good, getting all technologies except Heresy and Theocracy. Their defense is perfect, with all technologies available, and they can research all economic upgrades one Age earlier with half food price.",
 
     "civilization_bonus": [
         "Economic upgrades cost -50% food and are available one Age earlier than other civilizations",
@@ -165,6 +170,7 @@
         "Cavalier upgrade available in the Castle Age"
     ]
 },
+
 {
     "id": 7,
 
@@ -184,7 +190,7 @@
 
     "team_bonus": "Relics are visible on the min map",
 
-    "info":"",
+    "info":"Standing out for the Burmese are their excellent cavalry, most notably Battle Elephants, their strong infantry, and their great Monks. On the downside, their archers are close to being unusable without key upgrades like Thumb Ring, Arbalester, and Leather Archer Armor. The latter is especially unfortunate as their otherwise strong unique unit, the Arambai, direly misses it. However, it remains a very strong unit and is one of the Burmese's selling points. Their navy and siege weapons are average with a few missing upgrades that do not too much harm overall. The defensive structures are also rather average, but their economy is strong.",
 
     "civilization_bonus": [
         "Free lumber camp upgrades",
@@ -192,6 +198,7 @@
         " Monastery techs 50% cheaper"
     ]
 },
+
 {
     "id": 8,
 
@@ -211,7 +218,7 @@
 
     "team_bonus": "Monks heal 50% faster",
 
-    "info":"",
+    "info":"The Byzantines have access to a vast variety of technologies. Standing out are their excellent navy, Monks, and economy, with only a single technology missing (Herbal Medicine) in all three branches put together but with handy perks like Greek Fire and an increased healing speed for Monks. Weak spots in the Byzantine technology tree are hard to make out, but as their lacks in the defenses department (namely Masonry and Architecture) are compensated by a staggering HP bonus for buildings, they are probably best found in their land armies. Their foot archers are excellent, but their Cavalry Archers miss key technologies in Parthian Tactics and Bloodlines. The latter also hurts their cavalry (probably their weakest branch despite having an excellent unique unit there) as well as the missing Blast Furnace which then again does their infantry no favor as well. Working against these disadvantages are their discounts for Camel Riders and Pikemen. Lastly, they lack Siege Engineers, Siege Onagers, and Heavy Scorpions, making their siege department fairly average.",
 
     "civilization_bonus": [
         "Buildings have +10%/+20%/+30%/+40% HP in the Dark/Feudal/Castle/Imperial Age",
@@ -221,6 +228,7 @@
         "Town Watch and Town Patrol are free"
     ]
 },
+
 {
     "id": 9,
 
@@ -240,7 +248,7 @@
 
     "team_bonus": "Siege Workshops work 20% faster",
 
-    "info":"",
+    "info":"The Celts have very good infantry units with a major advantage in their faster movement speed. The other two main branches, archers and cavalry, are very underwhelming, missing key technologies all over the board. Their use in later stages of the game is usually only considered in special circumstances. Their navy is weak as they lack Fast Fire Ships and Bracer which puts their Galleons at a disadvantage. Their Monks are among the weakest of all, missing five of ten technologies. The defenses are average with two missing upgrades (Bracer and Architecture), but their Castle Age unique technology Stronghold helps slightly. They have arguably the best economy of all civilizations in early to mid game. However, their late game economy is slightly below average due to missing Crop Rotation. Their civilization bonus of efficient lumberjacks (+15%) is better than Two-man Saw (+10%, expensive). Their Siege Workshop is the best of all civilizations. The Celts' siege weapons attack quicker (also affects Trebuchets), are built faster, and are more tanky due to Furor Celtica, making them extremely dangerous. They have the worst Blacksmiths (aside from civilizations lacking cavalry, which naturally lack Cavalry Armor technologies), as they lack three technologies, including the important Bracer.",
 
     "civilization_bonus": [
         "Infantry units move 15% faster starting from the Feudal Age",
@@ -249,6 +257,7 @@
         "Enemy herdables can be converted regardless of enemy units next to them"
     ]
 },
+
 {
     "id": 10,
 
@@ -260,18 +269,22 @@
 
     "culture": "East asian",
 
-    "army_type": "",
+    "army_type": "Archers",
 
-    "unique_unit": [],
+    "unique_unit": ["Chu Ko Nu"],
 
-    "unique_tech": [],
+    "unique_tech": ["Great Wall", "Rocketry"],
 
-    "team_bonus": "",
+    "team_bonus": "Farms start with +10% food",
 
-    "info":"",
+    "info":"The Chinese are a very versatile civilization with an overall solid technology tree. Their infantry have all technologies but lack Supplies and foot archers get all the upgrades they could want, and their cavalry is also solid despite missing two final tier upgrades (Paladin and Hussar). The Siege Workshop is average, but their Scorpions get a great attack boost with Rocketry. Their navy is average missing the Fast Fire Ship and Elite Cannon Galleon, but they get fully upgradable Galleons. Their Monks are average, their defenses very good, and their economy is average technology tree-wise, but their +3 Villagers at the game start give them a notable kick start.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start game with three extra Villagers, but with -200 food and -50 wood",
+        "Town Centers support ten population (instead of five) and have +5 Line of Sight",
+        "Technologies are 10%/15%/20% cheaper in the Feudal/Castle/Imperial Age",
+        "Demolition Ships have +50% HP"]
 },
+
 {
     "id": 11,
 
@@ -283,18 +296,22 @@
 
     "culture": "Central asian",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["Kipchak"],
 
-    "unique_tech": [],
+    "unique_tech": ["Steppe Husbandry", "Cuman Mercenaries"],
 
-    "team_bonus": "",
+    "team_bonus": "Palisade Walls have +33% hit points",
 
-    "info":"",
+    "info":"The Cumans are classified as a cavalry civilization. Their cavalry is strong, having fully upgraded Hussars, Paladins, and Steppe Lancers, as well as the Steppe Husbandry unique technology, which makes the Scout Cavalry line and Steppe Lancer train 100% faster; furthermore, their cavalry move 5%/10%/15% faster in the Feudal/Castle/Imperial Age. Curiously enough, they are the only camel civilization that does not have access to the Heavy Camel Rider. Their Cavalry Archers are among the best in the game, with fast-firing Kipchaks and Steppe Husbandry allowing the Cavalry Archer line to be created 100% faster; however, their lack of Bracer makes them weaker in the Imperial Age. Foot archers, on the other hand, are rather weak, due to the lack of Bracer, Arbalester and Hand Cannoneer.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["A second Town Center can be built in the Feudal Age",
+    "Archery Ranges & Stables cost -100 wood",
+    "Siege Workshop & Battering Ram available in Feudal Age; Capped Ram upgrade available in Castle Age",
+    "Cavalry move 5%/10%/15% faster in Feudal/Castle/Imperial Age"]
 },
+
 {
     "id": 12,
 
@@ -306,18 +323,21 @@
 
     "culture": "African",
 
-    "army_type": "",
+    "army_type": "Archers and Siege weapons",
 
-    "unique_unit": [],
+    "unique_unit": ["Shotel Warrior"],
 
-    "unique_tech": [],
+    "unique_tech": ["Royal Heirs","Torsion Engines"],
 
-    "team_bonus": "",
+    "team_bonus": "Towers and Outposts have +3 Line of Sight",
 
-    "info":"",
+    "info":"The Ethiopian Archery Range is decent at best but still one of their greatest assets since their Archers get all upgrades and fire faster. Their infantry is good, lacking the Champion but getting the Shotel Warrior instead. Their cavalry is weak, lacking key units and technologies. Their navy is below average as well, lacking the Fast Fire Ship, Heavy Demolition Ship, and Elite Cannon Galleon. Their Monks do not get Block Printing and Redemption, however they are generally worthy. Their siege weapons are a big selling point for the Ethiopians. They are the only civilization to get all the units available in the Siege Workshop, and have a unique technology that makes the siege engines far more dangerous by increasing their Area of Effect. Their defenses are a bit underwhelming, but their economy is strong, only missing Crop Rotation.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["The Archer line fires 18% faster",
+        "Receive +100 food and +100 gold whenever a new Age is reached",
+        "The Pikeman upgrade is free"]
 },
+
 {
     "id": 13,
 
@@ -329,18 +349,22 @@
 
     "culture": "Western european",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["Throwing Axeman"],
 
-    "unique_tech": [],
+    "unique_tech": ["Bearded Axe", "Chivalry"],
 
-    "team_bonus": "",
+    "team_bonus": "Knights have +2 Line of Sight",
 
-    "info":"",
+    "info":"The Franks are a straightforward cavalry civilization, with the strongest Knight line of all civilizations and lots of Castles for defense. Despite being generally described as a cavalry civilization, their Stable is rather underwhelming outside of the Knight line, such as fully upgradable Light Cavalry and Paladins. Their infantry is very strong with fully upgraded Champions and Halberdiers. Their archers are weak. The Frankish siege weapons are average, as they lack both the Siege Onager and the Siege Ram. The Franks can use monks with some potential, lacking only Atonement and Redemption. Due to the fact that Castles are 25% cheaper, the Franks can build Castles for a more effective defensive system. That easily compensates the fact they have barely usable towers. Their navy has a hard time keeping up, lacking Elite Cannon Galleon and Shipwright, and the lack of Bracer is a big negative for Frankish Galleons. The Franks get Farm upgrades for free and their Foragers work +15% faster, rendering a fine food economy, but apart from that, their economical technology tree is rather lacking.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Farm upgrades are free",
+    "Castles are 25% cheaper",
+    "Mounted units have +20% HP (starting in the Feudal Age)",
+    "Foragers work 15% faster"]
 },
+
 {
     "id": 14,
 
@@ -352,18 +376,23 @@
 
     "culture": "Central european",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Huskarl"],
 
-    "unique_tech": [],
+    "unique_tech": ["Anarchy", "Perfusion"],
 
-    "team_bonus": "",
+    "team_bonus": "Barracks work 20% faster",
 
-    "info":"",
+    "info":"The Goths are an infantry civilization. As a result, infantry is the way to go since the Goths' advantages predominantly lay there. The main advantages there are the fast creation speed and low cost which offset lacking Plate Mail Armor by far. The Goths have weak archers, but they can fully upgrade their Skirmishers and Hand Cannoneers. The cavalry branch is not very prominent with the Goths albeit being overall acceptable, featuring Hussars with Bloodlines, but lacking Paladins and Plate Barding Armor. The Siege Workshop is also average without Siege Rams and Siege Onagers. Siege Engineers are also not available, but the Goths primary raiding units are Huskarls, anyway, so this is not that much of a drawback. Their navy is fairly useable, but Dry Dock is missing, so their ships lack speed. The Gothic Monks are way below average, missing four out of ten technologies, and their defenses are downright abysmal. Their economy is good, however.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Infantry are 20%/25%/30%/35% cheaper in the Dark/Feudal/Castle/Imperial Age",
+    "Infantry have +1/+2/+3 attack bonus against standard buildings in the Feudal/Castle/Imperial Age",
+    "Villagers have +5 attack against aggressive huntables (Wild Boar, Javelina, Elephant, Rhinoceros) and carry +15 food from hunting",
+    "Loom is researched instantly",
+    "+10 population cap in the Imperial Age"]
 },
+
 {
     "id": 15,
 
@@ -375,17 +404,19 @@
 
     "culture": "Central european",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["Tarkan"],
 
-    "unique_tech": [],
+    "unique_tech": ["Marauders", "Atheism"],
 
-    "team_bonus": "",
+    "team_bonus": "Stables work 20% faster",
 
-    "info":"",
+    "info":"The Huns are a cavalry civilization. As such, they have an ample cavalry tech tree with access to the rare fully upgraded Paladin. Their Cavalry Archers are also very prominent, but the foot archers are somewhat lacking without Ring Archer Armor. Their infantry also lacks the final armor upgrade, Supplies as well as the Champion, making it rather weak overall. Tech tree-wise, the Huns rank way below average in the Monk (missing four out of ten technologies), navy (no Cannon Galleon and Fast Fire Ship), and siege weapon departments (no Onager, Heavy Scorpion, and Bombard Cannon, though they do get Siege Rams); and their late-game economy is also average at best, without Crop Rotation and Stone Shaft Mining. Their defenses are horrible, lacking Fortified Walls, all Watch Tower upgrades, and most technologies affecting structures.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start the game with -100 wood, but with the population cap at the maximum",
+    "Cavalry Archers are 10%/20% cheaper in the Castle/Imperial Age",
+    "Trebuchets have +30% accuracy against units"]
 },
 {
     "id": 16,
@@ -398,17 +429,21 @@
 
     "culture": "Native american",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Kamayuk", "Slinger"],
 
-    "unique_tech": [],
+    "unique_tech": ["Andean Sling", "Fabric Shields"],
 
-    "team_bonus": "",
+    "team_bonus": "Farms are built 100% faster",
 
-    "info":"",
+    "info":"The Incas are an infantry civilization and the only civilization to have access to all infantry upgrades and technologies, including the Eagle Warrior (with extra armor due to Fabric Shields) that replaces the cavalry branch for the Incas. They also have all upgrades and technologies for their archers (excluding the mounted and gunpowder variants the Incas naturally do not get), and also get a unique unit at the Archery Range: the Slinger. In the siege department they are also very solid, only missing out on Siege Onagers and, logically, Bombard Cannons. The same goes for their navy, where next to the gunpowder ships, only the Heavy Demolition Ship is amiss. Their Monks are average and their defenses very good. They miss Architecture, but their stone discount they get on all buildings makes up for that. Their economy is also pretty good, only Two-Man Saw is missing.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start the game with an Eagle Scout",
+        "Start with a free Llama",
+        "Villagers benefit from Blacksmith infantry upgrades starting in the Castle Age",
+        "Houses support 10 population",
+        "Buildings cost -15% stone"]
 },
 {
     "id": 17,
@@ -421,17 +456,19 @@
 
     "culture": "South asian",
 
-    "army_type": "",
+    "army_type": "Camel riders and Gunpowder units",
 
-    "unique_unit": [],
+    "unique_unit": ["Elephant Archer", "Imperial Camel Rider"],
 
-    "unique_tech": [],
+    "unique_tech": ["Sultans", "Shatagni"],
 
-    "team_bonus": "",
+    "team_bonus": "Camel units have +4 attack against standard buildings",
 
-    "info":"",
+    "info":"The Indians are classified as a Camel Rider and gunpowder civilization. As such, they have excellent Camels with a unique upgrade, extra pierce armor, an additional attack bonus against standard buildings, and all upgrades (missing only the final armor upgrade). They also have access to the Hussar, but no Knights at their disposal. Still, their cavalry branch is very prominent and strong. Their archers are also very good, most prominently their excellent Cavalry Archers and Hand Cannoneers with both getting all possible upgrades and the latter getting another +1 range from Shatagni, making the Hand Cannoneer one of the most prominent unit in Indian armies. Their infantry misses out on the final armor upgrade but get all unit upgrades. The siege weapons are underwhelming apart from the Bombard Cannon. Their navy is good, but the Fast Fire Ship and Shipwright are missing. Their Monks are average. Their defenses are weak, but their economy is good (only lacking Crop Rotation) and very beneficial for their playing style with faster gold income due to Sultans.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Fishermen work 10% faster",
+        "Villagers are 10%/15%/20%/25% cheaper in the Dark/Feudal/Castle/Imperial Age",
+        "Stable units have +1/+2 pierce armor in the Castle/Imperial Age"]
 },
 {
     "id": 18,
@@ -444,17 +481,20 @@
 
     "culture": "Mediterranean",
 
-    "army_type": "",
+    "army_type": "Archers and navy",
 
-    "unique_unit": [],
+    "unique_unit": ["Genoese Crossbowman", "Condottiero"],
 
-    "unique_tech": [],
+    "unique_tech": ["Pavise", "Silk Road"],
 
-    "team_bonus": "",
+    "team_bonus": "Condottieri are available at the Barracks",
 
-    "info":"",
+    "info":"The Italians are mainly an archer and naval civilization. Their Archery Range is pretty fit with all upgrades and technologies for the foot soldiers there. Only their Cavalry Archers are weak. Their Stable units however are good, featuring Hussars and Cavaliers with full upgrades. In the infantry department there is only the Halberdier missing, but they have the Condottiero at their disposal. Apart from the Bombard Cannon which they get at a lower cost the siege weapons are underwhelming for the Italians. However, their Monks and navy are excellent with only one missing feature each. Same goes for their economy, which only lacks Gold Shaft Mining, and their defensive structures, which do not lack a single feature at all.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Advancing to the next Age is 15% cheaper",
+    "Dock and University technologies are 33% cheaper",
+    "Fishing Ships are 15% cheaper",
+    "Gunpowder units are 20% cheaper"]
 },
 {
     "id": 19,
@@ -467,17 +507,19 @@
 
     "culture": "East asian",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Samurai"],
 
-    "unique_tech": [],
+    "unique_tech": ["Yasama", "Kataparuto"],
 
-    "team_bonus": "",
+    "team_bonus": "Galleys have a +50% longer Line of Sight",
 
-    "info":"",
+    "info":"The Japanese are an infantry civilization and command the strongest infantry of all civilizations with all technologies and upgrades available plus a speed boost for their attacks which results in a very high damage output. The Japanese also have superb archers (including Cavalry Archers) which they can also fully upgrade. Only their cavalry is weak and their siege weapons are underwhelming as well but their Trebuchets greatly benefit from Kataparuto meaning their sieging is still fairly effective. Their navy is excellent, only lacking the Heavy Demolition Ship, but with longer-sighted Galleons and all other improvements at their disposal. Their Monks are very good as well, only lacking Heresy. Their defensive structures and economy are below average, however.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Fishing Ships have double HP, +2 pierce armor, and work 5%/10%/15%/20% faster in the Dark/Feudal/Castle/Imperial Age",
+    "Mills, Lumber Camps and Mining Camps are 50% cheaper",
+    "Infantry attack 33% faster starting in the Feudal Age"]
 },
 {
     "id": 20,

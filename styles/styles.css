@@ -235,6 +235,20 @@ nav ul a:hover{
 
         #civShowcase{
           display: flex;
+          border: 1px solid black;
+          background-color: #9d350f36;
+          text-align: center;
+          margin-top: 10px;
+          filter: brightness(90%);
+          padding: 20px;
+        }
+
+        #civShowcase p {
+          text-shadow: 5px 3px 3px rgb(0, 0, 0);
+        }
+
+        #civShowcase h2{
+          text-shadow: 2px 3px 3px rgb(0, 0, 0);
         }
         
         /*UNITS*/
