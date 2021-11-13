@@ -770,17 +770,19 @@
 
     "culture": "Eastern european",
 
-    "army_type": "",
+    "army_type": "Cavalry",
 
-    "unique_unit": [],
+    "unique_unit": ["Obuch"],
 
-    "unique_tech": [],
+    "unique_tech": ["Szlachta Privileges", "Lechitic Legacy"],
 
-    "team_bonus": "",
+    "team_bonus": "The Scout Cavalry line has +1 attack vs. archers",
 
-    "info":"",
+    "info":"The Poles are a versatile civilization with access to wide variety of units. Their Archery Range is solid, having access to all important technologies and units except for Ring Archer Armor, Parthian Tactics, and Hand Cannoneers. Their heavy cavalry puts emphasis on quantity over quality, as Szlachta Privileges makes their Knight unit line cost less, but the Poles lack access to Paladin and Plate Barding Armor. In a similar sense, their Winged Hussars are essentially glass cannon units with Lechitic Legacy allowing their Winged Hussars to deal trample damage. Their infantry is solid, having access to all important upgrades except for Halberdier. Their unique unit, the Obuch, is an infantry unit that can shred enemy armor. Their siege is average at best, as they have access to Bombard Cannons and Siege Rams without Siege Engineers. Their navy is below average, as they miss out a few important technologies. Their Monastery is missing Atonement, Heresy, and Illumination, but all other technologies for their Monks are present. Their economy is solid since their stone miners generate gold; and have access to a unique building, Folwark, which helps food generation by immediately collecting food from nearby Farms built. Their defenses are average, but their villagers have an extra layer of protection from enemy raids by slowly regenerating health.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Villagers recover 5/10/15/20 HP per minute in the Dark/Feudal/Castle/Imperial Age",
+    "The Folwark replaces the Mill",
+    "Stone miners generate gold in addition to stone"]
 },
 {
     "id": 30,
@@ -793,17 +795,20 @@
 
     "culture": "Mediterranean",
 
-    "army_type": "",
+    "army_type": "Navy and Gunpowder units",
 
-    "unique_unit": [],
+    "unique_unit": ["Organ gun and Caravel"],
 
-    "unique_tech": [],
+    "unique_tech": ["Carrack", "Arquebus"],
 
-    "team_bonus": "",
+    "team_bonus": "The Line of Sight is shared with the team from the beginning of the game.",
 
-    "info":"",
+    "info":"As a naval civilization, the Portuguese rely on a strong navy. Their ships are more durable due to their civilization bonus and Carrack and cheaper in terms of gold. Also, they get the Caravel, which can be an asset in large fights as it is capable of damaging multiple ships. On the land, the Portuguese are able to field a versatile army. Their Blacksmith is complete which results in their foot archers being fully upgradable, but their infantry sorely misses Squires as it means they miss out on an important speed bonus. Their cavalry may seem underwhelming without the Paladin and Hussar upgrade, but their Cavalier gets all upgrades and is one of the most cost effective of all units thanks to the gold discount. The gunpowder units deserve a special mentioning for the Portuguese as they can all be fully upgraded and receive a comrade-in-arms with the Organ Gun and an important accuracy boost with Arquebus. Again, the gold discount comes in handy here as these units are all very gold-intensive. Outside of the Bombard Cannon, their siege weapons are way below average, however. Their Monks are very good. The defensive structures rank as above average and their economy is strong, thanks to the Feitoria, which gives a trickle of all resources, and the fact that all of their technologies are researched 30% faster, which means that the Portuguese can maintain a good economy and be technologically ahead of other civilizations.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["All units cost –20% gold.",
+        "All ships have +10% HP.",
+        "All technologies (excluding advancing ages) are researched 30% faster.",
+        "The Feitoria becomes available for building in the Imperial Age."]
 },
 {
     "id": 31,
@@ -816,17 +821,21 @@
 
     "culture": "Middle eastern",
 
-    "army_type": "",
+    "army_type": "Cavalry and Navy",
 
-    "unique_unit": [],
+    "unique_unit": ["Mameluke"],
 
-    "unique_tech": [],
+    "unique_tech": ["Madrash", "Zealotry"],
 
-    "team_bonus": "",
+    "team_bonus": "Foot archers have +3 attack against standard buildings.",
 
-    "info":"",
+    "info":"The Saracens are classified as a cavalry and naval civilization. Their cavalry is indeed excellent despite missing even the Cavalier, because they get all other upgrades and a very threatening unique unit from that branch: the Mameluke. On the sea, they get excellent Galleons that fire faster. Their Transport Ships get usable boosts as well, though it must be noted that the Fast Fire Ship and Shipwright are missing. Their foot troops on land do not leave much to be desired. Their archers get every single upgrade, and only the Halberdier upgrade is missing in the infantry department. Also, all gunpowder units are at the Saracens' disposal. Overall, the siege weapons are strong as they lack only the Heavy Scorpion and so are their Monks which get every single upgrade which is very rare. Madrasah furthers the Monks' effectiveness as it, in the long run, effectively makes Monks cheaper. The defensive structures are rather average, and so is their economy, although the greatly reduced commodity trading fee can be a great asset when going for a rush or in the very late game.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["The commodity trading fee is 5%.",
+        "Markets cost 75 wood.",
+        "Transport Ships have double HP and +5 carry capacity.",
+        "Galleys attack 25% faster.",
+        "Camel units +10 HP."]
 },
 {
     "id": 32,
@@ -839,17 +848,21 @@
 
     "culture": "Mediterranean",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Serjeant"],
 
-    "unique_tech": [],
+    "unique_tech": ["First Crusade", "Hauberk"],
 
-    "team_bonus": "",
+    "team_bonus": "Transport Ships have +5 Line of Sight and cost -50%.",
 
-    "info":"",
+    "info":"The Sicilians are an infantry civilization. In fact, they have decent all-around military, thanks to their half-bonus-damage bonus, which means they can stay alive a little longer when facing counters. Their infantry can be fully upgraded, and their infantry unique unit, the Serjeant, can build Donjons, which can in turn train further Serjeants. Their Cavalry and Archery are less prominent compared to their infantry, missing Hussars and Paladins at the Stable, and lacking Thumb Ring, Ring Archer Armor, Heavy Cavalry Archer, Hand Cannoneers, and Parthian Tactics, making their Archers still weaker compared with many civilizations despite having Arbalesters. They have above average siege weapons, but the Bombard Cannon are absent. Their Monks are a weakness, due to missing half of the technologies at the Monastery. The same goes for their defenses, though their unique building, the Donjon, is more powerful than a common tower. Still, it does not compensate for missing Architecture and Fortified Walls. Their navy is excellent, with only Elite Cannon Gallons lacking. And their economy is solid, as they have double provided food from Farm technologies and are only missing Two-Man Saw for their economic technologies.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Start with +100 additional stone.",
+        "Castles and Town Centers are constructed 100% faster.",
+        "Land military units (except siege units) receive 50% less bonus damage.",
+        "Farm upgrades provide +100% additional food to Farms before they need to be reseeded.",
+        "Can build Donjons, which replace the regular Watch Tower line."]
 },
 {
     "id": 33,
@@ -862,17 +875,19 @@
 
     "culture": "Eastern european",
 
-    "army_type": "",
+    "army_type": "Infantry and siege weapons",
 
-    "unique_unit": [],
+    "unique_unit": ["Boyar"],
 
-    "unique_tech": [],
+    "unique_tech": ["Orthodoxy", "Druzhina"],
 
-    "team_bonus": "",
+    "team_bonus": "Military buildings (excluding Castles and Docks) provide +5 population.",
 
-    "info":"",
+    "info":"As an infantry civilization, the Slavs have access to the full infantry technology tree and also get Druzhina, making their infantry units highly useful in mass battles. Their cavalry is also good despite missing out on the Paladin upgrade. The archers, however, are among the worst of all civilizations. This is compensated to a degree by their excellent Siege Workshop units that get a 15% discount. Especially the Heavy Scorpion can fulfill the archers' role for the Slavs. Their navy is weak, although they can fully upgrade their Fire Ships. The Slavic Monks are excellent offensively with every upgrade there plus Orthodoxy which grants them extra armor, making them fearsome in Monk rushes. They lack Heresy and Faith and thus are vulnerable to conversion (Note: Faith was added in the Definitive Edition). Their defensive structures are below average but their faster farming is considered one of the strongest economic bonuses in the game.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Farmers work 10% faster",
+        "Supplies is free",
+        "Siege Workshop units are 15% cheaper"]
 },
 {
     "id": 34,
@@ -885,17 +900,20 @@
 
     "culture": "Mediterranean",
 
-    "army_type": "",
+    "army_type": "Gunpowder and Monks",
 
-    "unique_unit": [],
+    "unique_unit": ["Conquistador", "Misionary"],
 
-    "unique_tech": [],
+    "unique_tech": ["Inquisition", "Supremacy"],
 
-    "team_bonus": "",
+    "team_bonus": "Trade units generate +25% gold.",
 
-    "info":"",
+    "info":"The Spanish are classified as a gunpowder and Monk civilization. They excel at these two particular areas, getting all possible upgrades there bar Siege Engineers as well as specific bonuses and technologies, but the Spanish are far from being limited to their areas of expertise. Their infantry and cavalry units are great and do not miss out on a single feature. The Paladin deserves a special mention here as very few civilizations can utilize them. Their archers rank below average, though. The Spanish navy is simply excellent; their technology tree there is perfect (a feature that is only shared with the Byzantines) and their Cannon Galleons can effectively be used in naval battles and are not limited to razing buildings thanks to the faster and more accurate cannonballs. The siege weapons are overall average, but the faster attacking Bombard Cannons make a notable difference. The defensive structures are also strong for the Spanish, which leaves their economy to be the shallow part in their tree. Overall, the Spanish have a very complete technology tree that enables them to pick from a wide variety of viable strategies.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Builders work 30% faster (20% for Wonders).",
+        "Blacksmith upgrades cost no gold.",
+        "Cannon Galleons have better accuracy and faster cannonballs.",
+        "Gunpowder units (except Conquistadors) fire 18% faster"]
 },
 {
     "id": 35,
@@ -908,17 +926,20 @@
 
     "culture": "Central asian",
 
-    "army_type": "",
+    "army_type": "Cavalry Archer",
 
-    "unique_unit": [],
+    "unique_unit": ["Keshik", "Flaming Camel"],
 
-    "unique_tech": [],
+    "unique_tech": ["Silk Armor", "Timurid Siegecraft"],
 
-    "team_bonus": "",
+    "team_bonus": "Cavalry Archers have +2 Line of Sight.",
 
-    "info":"",
+    "info":"The Tatars are classified as a cavalry archer civilization. Their Cavalry Archers are extremely powerful, not only having all possible upgrades (two of those, Parthian Tactics and Thumb Ring, are free for them), they also deal 50% more damage when fight on higher grounds (this bonus applies to all Tatar units), increased Line of Sight (which is their team bonus) and the Silk Armor unique technology, which gives additional melee and pierce armor to them, putting the Tatar cavalry archers at the same level as the Mongol, Hun, Turk, Magyar and Cuman cavalry archers.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Herdables contain +50% food.",
+        "Units do +50% damage when attacking from higher elevations (instead of +25%)",
+        "Parthian Tactics and Thumb Ring are free",
+        "Two Sheep spawn near newly-constructed Town Centers starting in the Castle Age."]
 },
 {
     "id": 36,
@@ -931,17 +952,22 @@
 
     "culture": "Central european",
 
-    "army_type": "",
+    "army_type": "Infantry",
 
-    "unique_unit": [],
+    "unique_unit": ["Teutonic Knight"],
 
-    "unique_tech": [],
+    "unique_tech": ["Ironclad", "Crenellations"],
 
-    "team_bonus": "",
+    "team_bonus": "Units resist conversion (half as effective as Faith, but stacks with the effect of this technology).",
 
-    "info":"",
+    "info":"The Teutons are an infantry civilization. As such, they have excellent infantry with all upgrades, an extra +1/+2 melee armor in the Castle and Imperial ages, and the Teutonic Knight, a unit that is, albeit slow, unrivaled in melee combat. Their cavalry is, in fact, limited to the Paladin, which unfortunately lacks Husbandry and thus misses out on an important speed bonus; it remains a strong unit with +2 melee armor, however. Their archers are very weak, missing improvements all over the board, but Hand Cannoneers are available. The siege weapons are great, mostly due to Ironclad, which helps patch up their main weakness: melee attacks. The Teutonic navy is very underwhelming without Dry Dock and Bracer, which is an unfortunate combination as both the Fire Ship and Galleon are greatly hindered by their absence. Teutonic Monks are excellent. Their defensive capabilities are great, mostly thanks to Crenellations and overall solid defensive structures. Their economy is good, particularly their Farms, which are the most cost effective of all civilizations.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Monks have double healing range.",
+        "Towers garrison twice as many units.",
+        "Murder Holes and Herbal Medicine are free.",
+        "Farms are 40% cheaper.",
+        "Town Centers can garrison +10 units.",
+        "Barracks and Stable units receive +1/+2 melee armor in the Castle/Imperial Age."]
 },
 {
     "id": 37,
@@ -954,17 +980,21 @@
 
     "culture": "Middle eastern",
 
-    "army_type": "",
+    "army_type": "Gunpowder units",
 
-    "unique_unit": [],
+    "unique_unit": ["Janissary"],
 
-    "unique_tech": [],
+    "unique_tech": ["Sipahi", "Artillery"],
 
-    "team_bonus": "",
+    "team_bonus": "Gunpowder units are created 25% faster.",
 
-    "info":"",
+    "info":"The Turks are a gunpowder civilization and arguably have the best units there that have greater range, are created faster, and have more hit points. Apart from gunpowder using soldiers and Champions, the Turkish foot soldiers are very weak. Especially the lack of the Elite Skirmisher and Pikeman can hurt at times. Their mounted units, however, are great. Their cavalry units are complete apart from the Paladin, their Light Cavalry get extra pierce armor, and their Cavalry Archers are among the very best, only seeking competition from the Magyars, Mongols, and Saracens. The siege weapons are good, too, especially the long-ranged Bombard Cannon, but the Onager is missing which can be a disadvantage on densely forested maps like Black Forest as the Turks have no means to quickly cut large numbers of trees. The Turkish navy is very good, only the Fast Fire Ship is missing. Their Monks rank below average, but their defensive structures get all upgrades. Their economy is overall below average without Crop Rotation and Stone Shaft Mining, but their faster gold gathering comes in very handy and greatly benefits their playing style.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Gunpowder units have +25% HP.",
+        "Gunpowder technologies are 50% cheaper; Chemistry is free.",
+        "Gold Miners work 20% faster.",
+        "Light Cavalry and Hussar upgrades are free.",
+        "Scout Cavalry line gain +1 pierce armor."]
 },
 {
     "id": 38,
@@ -977,17 +1007,20 @@
 
     "culture": "East asian",
 
-    "army_type": "",
+    "army_type": "Archers",
 
-    "unique_unit": [],
+    "unique_unit": ["Rattan Archer", "Imperial Skirmisher"],
 
-    "unique_tech": [],
+    "unique_tech": ["Chatras", "Paper Money"],
 
-    "team_bonus": "",
+    "team_bonus": "Imperial Skirmishers are available at the Archery Range.",
 
-    "info":"",
+    "info":"The Vietnamese are an archer civilization with strong emphasis of team support, and their foot archers are excellent soldiers, getting additional HP as well as every upgrade there is. Additionally, their unique unit and team bonus are both foot archers, making the Vietnamese able to pick from a wide variety of different units there. Their infantry and cavalry both miss Blast Furnace, and the latter is especially shallow with other upgrades such as Paladin and Hussar missing. Their Battle Elephants, however, get additional HP out of Chatras and therefore have good defensive capabilities. The siege units are overall weak. Their navy is fair, but the Fast Fire Ship and Shipwright are missing. Their Monks rank below average as well. The defensive structures are overall good, but the lack of Masonry and Architecture is not helping. Their economy is good and especially suited for team games with Paper Money, but the lack of a major early game economic bonus makes the Vietnamese vulnerable to rush strategies.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Reveal enemy initial Town Centers location at the start of the game.",
+        "Archery Range units have +20% HP.",
+        "Conscription is free.",
+        "Economic upgrades cost no wood."]
 },
 {
     "id": 39,
@@ -1000,16 +1033,18 @@
 
     "culture": "Central european",
 
-    "army_type": "",
+    "army_type": "Infantry and Navy",
 
-    "unique_unit": [],
+    "unique_unit": ["Berserk", "Longboat"],
 
-    "unique_tech": [],
+    "unique_tech": ["Chieftains", "Berserkergang"],
 
-    "team_bonus": "",
+    "team_bonus": "Docks are 15% cheaper.",
 
-    "info":"",
+    "info":"The Vikings are a naval and infantry civilization. Their ships are indeed excellent, coming with a discount which offsets the lack of Shipwright and an excellent unique unit to reinforce their navy. The absence of even Fire Galleys should be noted, though, as it can be a disadvantage early on when Longboats are not yet available. Despite lacking the Halberdier upgrade, their infantry is excellent as well with all upgrades, additional HP, and an excellent unique technology that improves their performance when engaging cavalry units. The latter are very weak for the Vikings themselves, though. Lacking upgrades across the board, most notably Plate Barding Armor, Husbandry, and Bloodlines as well as all final tier upgrades, it is hard to justify their use. Their Cavalry Archers are also not worth considering, but their foot archers definitely are as their Arbalesters get all upgrades. Their other unique unit, the Berserk, is an excellent all-purpose infantry warrior that heal itself, but also Age of Empires II's most expensive units to fully upgrade. Viking siege weapons are somewhat lacking, and their Monks are simply bad. Their defensive structures are not a particular highlight either, but their Castle at least gets all upgrades. Their economy excels at early Castle Age, but lacks before mid-Feudal Age unless it is a water map.",
 
-    "civilization_bonus": []
+    "civilization_bonus": ["Wheelbarrow, Hand Cart upgrades free.",
+        "Warships cost -15%/-15%/-20% in the Feudal/Castle/Imperial Age.",
+        "Infantry have +10/15/20% HP in the Feudal/Castle/Imperial Age."]
 }
 ]
