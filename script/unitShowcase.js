@@ -9,11 +9,12 @@ $.get(url, (data, state) => {
             <td>
             <h4>${element.name}</h4>
             <img src="/img/AoE2Assets/UnitIcons/${element.name}.png" class="img-fluid" width="100" height="auto">
-            
-            
+            </td>
+            <td>
+            <p>${element.description}</p>
+            <p>Available in ${element.age} age</p>
             
             </td>
-            <td>${element.description}</td>
             <td>
                 <p>Hit points: ${element.hit_points}</p>
                 <p>Attack: ${element.attack}</p>
