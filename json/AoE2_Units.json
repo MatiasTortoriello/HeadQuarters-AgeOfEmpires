@@ -707,32 +707,6 @@
       "accuracy": "100%"
     },
     {
-      "id": 34,
-      "name": "Elite Longboat",
-      "description": "Upgraded Longboat",
-      "expansion": "Age of Kings",
-      "age": "Imperial",
-      "created_in": "dock",
-      "cost": {
-        "Wood": 80,
-        "Gold": 40
-      },
-      "build_time": 25,
-      "reload_time": 3,
-      "movement_rate": 1.54,
-      "line_of_sight": 9,
-      "hit_points": 160,
-      "range": 7,
-      "attack": 8,
-      "armor": "0/8",
-      "attack_bonus": [
-        "+8 buildings",
-        "+11 ships",
-        "+4 rams"
-      ],
-      "accuracy": "100%"
-    },
-    {
       "id": 35,
       "name": "Fishing Ship",
       "description": "Ship to harvest fish (resource)",
@@ -803,31 +777,6 @@
       "armor": "6/5",
       "armor_bonus": [
         "+8 ships"
-      ],
-      "blast_radius": 0.5
-    },
-    {
-      "id": 39,
-      "name": "Elite Turtle Ship",
-      "description": "Upgraded Turtle Ship",
-      "expansion": "The Conquerors",
-      "age": "Imperial",
-      "created_in": "dock",
-      "cost": {
-        "Wood": 200,
-        "Gold": 200
-      },
-      "build_time": 50,
-      "reload_time": 6,
-      "movement_rate": 0.9,
-      "line_of_sight": 8,
-      "hit_points": 300,
-      "range": 6,
-      "attack": 50,
-      "armor": "8/6",
-      "armor_bonus": [
-        "+11 ships",
-        "+1 turtle ship armor"
       ],
       "blast_radius": 0.5
     },

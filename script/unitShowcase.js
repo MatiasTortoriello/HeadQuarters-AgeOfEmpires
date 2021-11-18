@@ -6,10 +6,19 @@ $.get(url, (data, state) => {
             $("#unitTable").append(
                 `
             <tr class="${element.created_in}">
-            <td>${element.name}</td>
+            <td>
+            <h4>${element.name}</h4>
+            <img src="/img/AoE2Assets/UnitIcons/${element.name}.png" class="img-fluid" width="100" height="auto">
+            
+            
+            
+            </td>
             <td>${element.description}</td>
-            <td>${element.age}</td>
-            <td>${element.cost[element]}</td>
+            <td>
+                <p>Hit points: ${element.hit_points}</p>
+                <p>Attack: ${element.attack}</p>
+                <p>Armor: ${element.armor}</p>
+            </td>
             </tr>
 
             `
