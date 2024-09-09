@@ -30,7 +30,7 @@ const showCivilization = (civ) => {
     <div class="civProperties text-center">
     <img src="/img/AoE2Assets/CivIcons/CivIcon-${civ.name}.png">
         <h2>${civ.name}</h2>
-        <p>${civ.culture} culture (${civ.continent})<p>
+        <p>${civ.culture} culture (${civ.continent})</p>
         <p>${civ.info}</p>
 
     </div>
